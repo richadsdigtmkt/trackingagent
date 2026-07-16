@@ -1,0 +1,44 @@
+name: Novedades del sector (tracking)
+
+on:
+  schedule:
+    # Cron doble para cubrir horario de verano/invierno de Madrid.
+    # 05:00 UTC = 07:00 CEST (verano) · 06:00 UTC = 07:00 CET (invierno).
+    - cron: '0 5 * * *'
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  novedades:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar ingesta de novedades
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/ingest_tracking_news.py
+
+      - name: Commit automatico si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add conocimiento/novedades/
+          if git diff --staged --quiet; then
+            echo "Sin cambios que commitear."
+          else
+            git commit -m "Novedades del sector: $(date -u +%Y-%m-%d)"
+            git push
+          fi
