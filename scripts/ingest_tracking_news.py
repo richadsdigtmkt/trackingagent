@@ -33,7 +33,7 @@ TEMA = "conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)
 FUENTES = [
     {"nombre": "Simo Ahava",             "url": "https://www.simoahava.com/index.xml",                            "area": "GTM/GA4"},
     {"nombre": "Google Analytics Blog",  "url": "https://blog.google/products/marketingplatform/analytics/rss/", "area": "GA4"},
-    {"nombre": "David Vallejo (Thyngster)", "url": "https://www.thyngster.com/feed/", "area": "server-side/GTM"},
+    {"nombre": "David Vallejo (Thyngster)", "url": "https://www.thyngster.com/rss.xml", "area": "server-side/GTM"},
     {"nombre": "MeasureSchool",          "url": "https://measureschool.com/feed/",                              "area": "Tracking general"},
     {"nombre": "ObservePoint Blog",      "url": "https://www.observepoint.com/blog/feed/",                      "area": "Tag governance/QA"},
 ]
