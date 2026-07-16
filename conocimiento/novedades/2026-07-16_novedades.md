@@ -2,7 +2,7 @@
 tema: conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)
 fecha: 2026-07-16
 fuentes_escaneadas: 5
-fuentes_caidas: 1
+fuentes_caidas: 0
 novedades: 0
 relevancia_alta: 0
 tags: []
@@ -11,7 +11,7 @@ tags: []
 # Novedades del sector — 2026-07-16
 
 - **Con novedades hoy:** ninguna
-- **Leidas sin novedades (OK, sin publicaciones en la ventana):** Simo Ahava, Google Analytics Blog, MeasureSchool, ObservePoint Blog
-- **Caidas / no leidas (revisar URL si persiste):** Analytics Mania
+- **Leidas sin novedades (OK, sin publicaciones en la ventana):** Simo Ahava, Google Analytics Blog, Analytics Mania, MeasureSchool, ObservePoint Blog
+- **Caidas / no leidas (revisar URL si persiste):** ninguna
 
 _Sin novedades en las ultimas 26 horas._
