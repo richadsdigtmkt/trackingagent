@@ -31,7 +31,7 @@ import requests
 TEMA = "conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)"
 
 FUENTES = [
-    {"nombre": "Simo Ahava",             "url": "https://www.simoahava.com/rss.xml",                            "area": "GTM/GA4"},
+    {"nombre": "Simo Ahava",             "url": "https://www.simoahava.com/index.xml",                            "area": "GTM/GA4"},
     {"nombre": "Google Analytics Blog",  "url": "https://blog.google/products/marketingplatform/analytics/rss/", "area": "GA4"},
     {"nombre": "Analytics Mania",        "url": "https://www.analyticsmania.com/feed/",                         "area": "GTM/GA4"},
     {"nombre": "MeasureSchool",          "url": "https://measureschool.com/feed/",                              "area": "Tracking general"},
