@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ingest_tracking_news.py
+scripts/ingest_tracking_news.py
 
 Lee feeds RSS del sector de conversion tracking (GTM, GA4, Meta Pixel,
 server-side, consent/privacy), filtra las entradas de las ultimas 26 horas,
