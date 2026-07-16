@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-scripts/ingest_tracking_news.py
+ingest_tracking_news.py
 
 Lee feeds RSS del sector de conversion tracking (GTM, GA4, Meta Pixel,
 server-side, consent/privacy), filtra las entradas de las ultimas 26 horas,
@@ -40,6 +40,12 @@ FUENTES = [
 
 VENTANA_HORAS = 26
 
+# User-Agent de navegador: muchos sitios (Cloudflare, WordPress endurecido)
+# devuelven 403 a la peticion por defecto de feedparser. Con un UA de navegador
+# el feed se descarga con normalidad.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+
 ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_VERSION = "2023-06-01"
 MODEL = "claude-haiku-4-5-20251001"
@@ -74,6 +80,25 @@ SYSTEM_PROMPT = (
 
 def log(msg):
     print("[ingest] " + str(msg), flush=True)
+
+
+def descargar_feed(url):
+    """Descarga el feed con User-Agent de navegador y lo parsea.
+    Devuelve (feed, error). Si error no es None, el feed no se pudo leer."""
+    headers = {
+        "User-Agent": BROWSER_UA,
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    }
+    try:
+        r = requests.get(url, headers=headers, timeout=25)
+    except requests.RequestException as e:
+        return None, "error de red: " + str(e)
+    if r.status_code != 200:
+        return None, "HTTP " + str(r.status_code)
+    feed = feedparser.parse(r.content)
+    if getattr(feed, "bozo", 0) and not feed.entries:
+        return None, "feed no parseable (bozo) tras descarga OK"
+    return feed, None
 
 
 def entrada_reciente(entry, limite_epoch):
@@ -189,7 +214,7 @@ def _parse_json(texto):
 # Escritura del markdown
 # --------------------------------------------------------------------------- #
 
-def escribir_markdown(resumenes, fuentes_ok, fuentes_vacias, fecha):
+def escribir_markdown(resumenes, fuentes_ok, fuentes_sin_novedades, fuentes_caidas, fecha):
     os.makedirs(OUT_DIR, exist_ok=True)
     ruta = os.path.join(OUT_DIR, fecha + "_novedades.md")
 
@@ -201,12 +226,14 @@ def escribir_markdown(resumenes, fuentes_ok, fuentes_vacias, fecha):
         por_rel[rel].append(r)
 
     tags = sorted({(r.get("area") or "otros") for r in resumenes})
+    total_fuentes = len(fuentes_ok) + len(fuentes_sin_novedades) + len(fuentes_caidas)
 
     # Frontmatter YAML
     L = ["---"]
     L.append("tema: " + TEMA)
     L.append("fecha: " + fecha)
-    L.append("fuentes_escaneadas: " + str(len(fuentes_ok) + len(fuentes_vacias)))
+    L.append("fuentes_escaneadas: " + str(total_fuentes))
+    L.append("fuentes_caidas: " + str(len(fuentes_caidas)))
     L.append("novedades: " + str(len(resumenes)))
     L.append("relevancia_alta: " + str(len(por_rel["alta"])))
     L.append("tags: [" + ", ".join(tags) + "]")
@@ -214,10 +241,11 @@ def escribir_markdown(resumenes, fuentes_ok, fuentes_vacias, fecha):
     L.append("")
     L.append("# Novedades del sector — " + fecha)
     L.append("")
-    L.append(
-        "Fuentes con entradas: " + (", ".join(fuentes_ok) if fuentes_ok else "ninguna") + ". "
-        "Sin entradas en la ventana: " + (", ".join(fuentes_vacias) if fuentes_vacias else "ninguna") + "."
-    )
+    L.append("- **Con novedades hoy:** " + (", ".join(fuentes_ok) if fuentes_ok else "ninguna"))
+    L.append("- **Leidas sin novedades (OK, sin publicaciones en la ventana):** "
+             + (", ".join(fuentes_sin_novedades) if fuentes_sin_novedades else "ninguna"))
+    L.append("- **Caidas / no leidas (revisar URL si persiste):** "
+             + (", ".join(fuentes_caidas) if fuentes_caidas else "ninguna"))
     L.append("")
 
     if not resumenes:
@@ -265,20 +293,14 @@ def main():
     fecha = ahora.strftime("%Y-%m-%d")
 
     resumenes = []
-    fuentes_ok, fuentes_vacias = [], []
+    fuentes_ok, fuentes_sin_novedades, fuentes_caidas = [], [], []
 
     for fuente in FUENTES:
         log("Leyendo " + fuente["nombre"] + " -> " + fuente["url"])
-        try:
-            feed = feedparser.parse(fuente["url"])
-        except Exception as e:
-            log("  ! no se pudo parsear el feed: " + str(e))
-            fuentes_vacias.append(fuente["nombre"])
-            continue
-
-        if getattr(feed, "bozo", 0) and not feed.entries:
-            log("  ! feed invalido o inaccesible (bozo). Revisar la URL del RSS.")
-            fuentes_vacias.append(fuente["nombre"])
+        feed, err = descargar_feed(fuente["url"])
+        if err or feed is None:
+            log("  ! no se pudo leer el feed: " + str(err) + ". Revisar la URL del RSS.")
+            fuentes_caidas.append(fuente["nombre"])
             continue
 
         recientes = [e for e in feed.entries if entrada_reciente(e, limite_epoch)]
@@ -286,7 +308,7 @@ def main():
             str(VENTANA_HORAS) + "h (de " + str(len(feed.entries)) + " totales)")
 
         if not recientes:
-            fuentes_vacias.append(fuente["nombre"])
+            fuentes_sin_novedades.append(fuente["nombre"])
             continue
 
         fuentes_ok.append(fuente["nombre"])
@@ -296,14 +318,16 @@ def main():
                 resumenes.append(resumen)
             time.sleep(1)  # cortesia con la API
 
-    ruta = escribir_markdown(resumenes, fuentes_ok, fuentes_vacias, fecha)
+    ruta = escribir_markdown(resumenes, fuentes_ok, fuentes_sin_novedades,
+                             fuentes_caidas, fecha)
     log("Escrito: " + ruta)
-    log("Resumen: " + str(len(resumenes)) + " novedad(es); fuentes con entradas: " +
-        str(len(fuentes_ok)) + "; sin entradas: " + str(len(fuentes_vacias)))
+    log("Resumen: " + str(len(resumenes)) + " novedad(es); con novedades: " +
+        str(len(fuentes_ok)) + "; leidas sin novedades: " + str(len(fuentes_sin_novedades)) +
+        "; caidas: " + str(len(fuentes_caidas)))
 
-    if fuentes_vacias:
-        log("NOTA: fuentes sin entradas hoy (verificar la URL del RSS si es persistente): "
-            + ", ".join(fuentes_vacias))
+    if fuentes_caidas:
+        log("NOTA: fuentes caidas hoy (verificar la URL del RSS si es persistente): "
+            + ", ".join(fuentes_caidas))
 
 
 if __name__ == "__main__":
