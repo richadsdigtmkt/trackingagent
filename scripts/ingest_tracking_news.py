@@ -31,11 +31,19 @@ import requests
 TEMA = "conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)"
 
 FUENTES = [
-    {"nombre": "Simo Ahava",             "url": "https://www.simoahava.com/index.xml",                            "area": "GTM/GA4"},
-    {"nombre": "Google Analytics Blog",  "url": "https://blog.google/products/marketingplatform/analytics/rss/", "area": "GA4"},
-    {"nombre": "David Vallejo (Thyngster)", "url": "https://www.thyngster.com/rss.xml", "area": "server-side/GTM"},
-    {"nombre": "MeasureSchool",          "url": "https://measureschool.com/feed/",                              "area": "Tracking general"},
-    {"nombre": "ObservePoint Blog",      "url": "https://www.observepoint.com/blog/feed/",                      "area": "Tag governance/QA"},
+    # --- Nicho, calidad alta, baja frecuencia (se MANTIENEN, ya funcionaban) ---
+    {"nombre": "Simo Ahava",                "url": "https://www.simoahava.com/index.xml",                                  "area": "GTM/GA4"},
+    {"nombre": "David Vallejo (Thyngster)", "url": "https://www.thyngster.com/rss.xml",                                    "area": "server-side/GTM"},
+    {"nombre": "ObservePoint Blog",         "url": "https://www.observepoint.com/blog/feed/",                              "area": "Tag governance/QA"},
+    {"nombre": "Google Analytics Blog",     "url": "https://blog.google/products/marketingplatform/analytics/rss/",        "area": "GA4"},
+ 
+    # --- Fuentes ACTIVAS nuevas (verificadas 2026-07-24) ---
+    # PPC Land: muy activa (decenas de posts/dia). Cubre Google Ads API, Meta,
+    #   Consent Mode, privacidad, measurement. Es la que dara senal a diario.
+    #   OJO: es broad ad-tech -> genera volumen y ruido. Ver nota 1 abajo.
+    {"nombre": "PPC Land",                  "url": "https://ppc.land/rss/",                                                "area": "Ads/tracking/privacy"},
+    # Search Engine Land - categoria GA4: enfocada, fiable, frecuencia media.
+    {"nombre": "Search Engine Land (GA4)",  "url": "https://searchengineland.com/library/platforms/google-analytics/feed", "area": "GA4/analytics"},
 ]
 
 VENTANA_HORAS = 26
