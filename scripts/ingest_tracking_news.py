@@ -43,7 +43,7 @@ FUENTES = [
     #   OJO: es broad ad-tech -> genera volumen y ruido. Ver nota 1 abajo.
     {"nombre": "PPC Land",                  "url": "https://ppc.land/rss/",                                                "area": "Ads/tracking/privacy"},
     # Search Engine Land - categoria GA4: enfocada, fiable, frecuencia media.
-    {"nombre": "Search Engine Land (GA4)",  "url": "https://searchengineland.com/library/platforms/google-analytics/feed", "area": "GA4/analytics"},
+    
 ]
 
 VENTANA_HORAS = 26
@@ -311,7 +311,16 @@ def main():
             fuentes_caidas.append(fuente["nombre"])
             continue
 
-        recientes = [e for e in feed.entries if entrada_reciente(e, limite_epoch)]
+        KEYWORDS = ("gtm", "tag manager", "ga4", "analytics", "consent",
+                    "pixel", "capi", "conversions api", "server-side", "server side",
+                    "measurement", "conversion", "enhanced conversion", "tracking",
+                    "data manager", "gtag", "first-party", "cookie")
+        def _relevante(e):
+            txt = (e.get("title", "") + " " + texto_entrada(e)).lower()
+            return any(k in txt for k in KEYWORDS)
+        recientes = [e for e in feed.entries
+                     if entrada_reciente(e, limite_epoch)
+                     and (fuente["nombre"] != "PPC Land" or _relevante(e))]
         log("  " + str(len(recientes)) + " entrada(s) en la ventana de " +
             str(VENTANA_HORAS) + "h (de " + str(len(feed.entries)) + " totales)")
 
