@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### ChatGPT Ads integra atribución móvil con AppsFlyer y Adjust
+### ChatGPT Ads añade atribución de apps con AppsFlyer y Adjust
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** OpenAI expande capacidad de atribución de apps en ChatGPT Ads (7 mercados iniciales, DACH/España/UK no mencionados). No afecta directamente a la configuración de GA4, GTM, Meta Pixel o consent mode en clientes actuales.
+- **Implicacion:** Nueva opción de atribución para apps en ChatGPT Ads (7 mercados, sin DACH/España/UK aún). Monitorear si llega a tus mercados; no es acción inmediata.
 - **Enlace:** https://ppc.land/chatgpt-ads-gains-app-attribution-in-7-markets-as-appsflyer-adjust-go-live/
