@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Amazon limita compra STV individual en Brand+; 10 features IA desde 22 julio
+### Amazon discontinúa compra STV single-deal en Brand+; suma 10 features IA
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio en modelo de compra de Amazon DSP que no afecta tracking directo ni consent mode. Revisar si clientes usan STV individual y adaptarse a nuevas opciones de compra.
+- **Implicacion:** Cambio en plataforma de ads Amazon (no afecta GTM/GA4/Meta). Relevante solo si gestionas campañas Amazon DSP; revisar si tus deals STV requieren migración a nuevos formatos.
 - **Enlace:** https://ppc.land/amazon-kills-single-deal-stv-buying-in-brand-as-10-ai-features-land/
