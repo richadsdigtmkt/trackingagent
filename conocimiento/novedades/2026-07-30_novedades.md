@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 0
-tags: [consent/privacy, otros]
+tags: [GA4, consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-07-30
@@ -20,22 +20,22 @@ _Nada en esta categoria._
 
 ## Relevancia media (2)
 
-### dict.cc: queja GDPR por banner de consentimiento con 1.741 partners
+### dict.cc: queja GDPR por banner con 1.741 partners sin consentimiento práctico
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Caso de enforcement GDPR sobre exceso de partners en banners de consentimiento. Relevante para entender limites regulatorios en diseño de banners, pero no es cambio de plataforma inmediato.
+- **Implicacion:** Caso de enforcement sobre legitimidad de banners de consentimiento con demasiados partners. Revisa si tus clientes tienen >100 partners listados sin grupo/categorización: riesgo regulatorio en DACH. Aplica consolidación de partners o categorización clara.
 - **Enlace:** https://ppc.land/dict-cc-faces-gdpr-complaint-over-1-741-partner-consent-click/
 
-### AI Mode reduce visibilidad Shopping 95% vs búsqueda estándar
+### AI Mode reduce visibilidad Shopping en 95% vs búsqueda estándar
 
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Si tu cliente vende por Google Shopping, debe entender que AI Mode limita drásticamente la exposición de productos (88% vs 23%). Revisa estrategia de pujas y producto feed para AI Mode específicamente.
+- **Fuente:** PPC Land · **Area:** GA4
+- **Implicacion:** Los anunciantes con dependencia de Google Shopping deben evaluar impacto en volumen de tráfico y ajustar presupuestos/estrategias si ven caída. Requiere análisis de datos GA4 para segmentar tráfico AI Mode vs estándar.
 - **Enlace:** https://ppc.land/ai-mode-cuts-google-shopping-listings-95-productrise-finds/
 
 ## Relevancia baja (1)
 
-### LinkedIn publica ranking de 50 ciudades con más crecimiento laboral en Europa
+### LinkedIn publica ranking de ciudades con más crecimiento laboral en Europa
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido editorial sobre tendencias laborales en mercados DACH, España y UK. No afecta implementación de tracking, GA4, GTM ni consent mode.
+- **Implicacion:** Contenido de análisis de mercado laboral sin implicaciones directas para tracking o conversion. Útil solo si segmentas audiencias por ubicación geográfica en campañas de empleo.
 - **Enlace:** https://ppc.land/linkedin-names-50-fastest-growing-job-cities-across-europe-for-2026/
