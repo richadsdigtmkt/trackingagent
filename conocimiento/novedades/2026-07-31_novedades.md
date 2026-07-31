@@ -3,7 +3,7 @@ tema: conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)
 fecha: 2026-07-31
 fuentes_escaneadas: 5
 fuentes_caidas: 0
-novedades: 7
+novedades: 6
 relevancia_alta: 0
 tags: [GA4, consent/privacy, otros]
 ---
@@ -18,49 +18,43 @@ tags: [GA4, consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (4)
+## Relevancia media (3)
 
-### Adobe Advertising integra IDs de CTV (Eyeota) sin cookies third-party
+### Adobe Advertising integra IDs de CTV (Eyeota) sin cookies de terceros
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Afecta principalmente a clientes con estrategia CTV/video. Monitorea si tus cuentas Adobe Advertising usan estas audiencias; valida que el mapeo de IDs cumpla GDPR/ePrivacy en DACH/España/UK (consentimiento explícito requerido). No es urgente si no trabajas CTV.
+- **Implicacion:** Afecta si gestionas campañas de TV conectado o cross-device en ecosistema Adobe. Evalúa si esta integración de identidades determinísticas (sin cookies) mejora tu tracking sin conflicto con Consent Mode.
 - **Enlace:** https://ppc.land/adobe-advertising-ties-eyeota-ctv-ids-to-identities-without-cookies/
 
-### Experian + AUDIENCES: solución activación datos first-party
+### Experian-AUDIENCES: herramienta para activar datos first-party
 
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Herramienta de terceros para activar first-party data en search/social/CTV. Útil conocer si clientes enfrentan fricción en activación, pero no es cambio de plataforma obligatorio ni afecta tu setup actual de GTM/GA4/consent.
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Nueva solución de activación de datos first-party en search, social y CTV. Relevante si trabajas con clientes que luchan con CDP/DMP, pero es principalmente herramienta de terceros, no cambio de plataforma que afecte GTM/GA4/Pixel.
 - **Enlace:** https://ppc.land/experian-pairs-with-audiences-to-close-72-activation-gap/
 
 ### GA4 exige campo de moneda en importación de costes
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Los uploads de costes sin campo de moneda fallarán en GA4. Revisa tus integraciones de cost import (GTM, server-side) y asegúrate de incluir siempre la moneda; los anunciantes multi-moneda necesitan mapeo explícito.
-- **Deja obsoleto:** Uploads de costes sin especificación de moneda dejan de funcionar en GA4 (cambio de intake).
+- **Implicacion:** Los uploads de costes sin especificar moneda fallarán. Revisa tus integraciones de importación de costes (CMS, Shopify, etc.) para asegurar que incluyen el campo currency; los anunciantes multidivisa necesitarán mapeo adicional.
+- **Deja obsoleto:** Implementaciones de cost import sin campo currency quedan no funcionales
 - **Enlace:** https://ppc.land/google-analytics-forces-currency-field-on-every-cost-import/
-
-### dict.cc: GDPR demand sobre 1.741 partners en consent banner
-
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Caso de noyb contra Austria muestra riesgo regulatorio si el consent banner oculta demasiados partners sin acceso claro. Revisa tus implementaciones: ¿los usuarios pueden rechazar granularmente o solo aceptar todo? Documenta tu flujo de consentimiento.
-- **Enlace:** https://ppc.land/dict-cc-faces-gdpr-complaint-over-1-741-partner-consent-click/
 
 ## Relevancia baja (3)
 
-### Universal Ads suma 8 partners de medición mientras Comcast se escinde
+### Universal Ads suma 8 partners de medición; incertidumbre por spin-off de Comcast
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Movimiento estratégico en TV premium y tracking de audiencias, pero sin impacto directo en GTM/GA4/Pixel. Monitorear si afecta a clientes con estrategias CTV, pero no requiere acción inmediata.
+- **Implicacion:** Movimiento táctico de Universal Ads para reforzar partnerships en medición CTV. No afecta directamente a GTM, GA4, Meta Pixel o consent mode en mercados DACH/España/UK.
 - **Enlace:** https://ppc.land/universal-ads-gains-8-measurement-partners-as-comcast-spin-off-looms/
 
-### FOX e iSpot amplían medición lineal y streaming; sin cambios en tracking
+### FOX e iSpot amplían partnership de medición en linear y streaming
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es una noticia comercial sobre expansión de asociación de medición de FOX/iSpot. No afecta implementaciones de GTM, GA4, Meta Pixel ni consent mode en DACH/ES/UK.
+- **Implicacion:** Noticia de negocio sobre alianza de medición de FOX/iSpot. Sin cambios en plataformas de tracking (GTM, GA4, Meta, server-side) ni políticas que afecten implementaciones.
 - **Enlace:** https://ppc.land/fox-ad-impressions-hit-142-billion-as-ispot-deepens-measurement-deal/
 
-### HubSpot integra sincronización de leads de Snapchat bidireccional
+### HubSpot integra sincronización nativa de leads de Snapchat
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Mejora operativa para clientes que usan HubSpot + Snapchat Ads, pero no impacta arquitectura de tracking ni medición de conversiones en GA4/Meta. Relevante solo si tu cliente usa ambas plataformas y busca automatizar flujos CRM.
+- **Implicacion:** Mejora operacional para usuarios de HubSpot + Snapchat (eliminan exportes manuales). No afecta arquitectura de tracking GA4, GTM, Meta Pixel o server-side tracking en DACH/Spain/UK.
 - **Enlace:** https://ppc.land/hubspot-gains-snapchat-lead-sync-closing-loop-on-ad-spend-proof/
