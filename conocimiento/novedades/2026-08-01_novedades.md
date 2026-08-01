@@ -20,11 +20,11 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Microsoft depreca Predictive Matching en Search Ads, migra a AI Max
+### Microsoft discontinúa Predictive Matching en Search Ads, migra a AI Max
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Afecta solo a cuentas con auto-bidding basado en conversiones. Revisar si clientes DACH/UK/ES usan esta estrategia y preparar migración a AI Max; sin fecha confirmada aún, monitorear comunicados oficiales de Microsoft.
-- **Deja obsoleto:** Predictive Matching como estrategia de matching en Microsoft Search Ads queda obsoleta
+- **Implicacion:** Afecta solo a anunciantes con estrategias de puja automática basada en conversiones. Revisar cuentas Microsoft Ads si usas Predictive Matching y planificar migración a AI Max; sin fecha confirmada aún, monitorizar comunicados oficiales.
+- **Deja obsoleto:** Predictive Matching en Microsoft Search Ads queda obsoleto
 - **Enlace:** https://ppc.land/microsoft-kills-predictive-matching-shifts-search-ads-to-ai-max/
 
 ## Relevancia baja (0)
