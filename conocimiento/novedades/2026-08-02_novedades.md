@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 2
 relevancia_alta: 1
-tags: [consent/privacy]
+tags: [consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-08-02
@@ -16,11 +16,11 @@ tags: [consent/privacy]
 
 ## Relevancia alta (1)
 
-### Art. 50 LSSI-CE: multas hasta 3% facturación desde mañana
+### Article 50 GDPR: multas hasta 3% facturación; AI tracking complica cumplimiento
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Entra en vigor mañana con sanciones de hasta 15M€ o 3% de facturación por incumplimiento de transparencia en tracking. Revisar inmediatamente consentimientos, disclósures y documentación de tratamientos (esp. en DACH/España) para evitar sanciones.
-- **Deja obsoleto:** Declaraciones genéricas de 'cookies' sin detalle de propósitos específicos quedan insuficientes; exige transparencia explícita por sistema/herramienta.
+- **Implicacion:** Article 50 GDPR entra en vigor mañana con sanciones severas (15M€ o 3% facturación). Afecta directamente si usas AI en tracking/decisiones; requiere auditar sistemas AI y documentar cumplimiento GDPR en pipelines de GA4, Meta Pixel y server-side.
+- **Deja obsoleto:** Modelos de tracking que no auditaban decisiones de AI en la cadena de atribución quedan insuficientes.
 - **Enlace:** https://ppc.land/article-50-fines-hit-3-turnover-as-cinchy-ceo-says-disclosure-isnt-enough/
 
 ## Relevancia media (0)
@@ -31,6 +31,6 @@ _Nada en esta categoria._
 
 ### Demanda contra Granola por grabar reuniones sin consentimiento
 
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Caso legal sobre prácticas de consentimiento en herramientas de IA. Monitorear evolución, pero no impacta directamente estrategias de tracking de conversiones o consent mode en web.
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Caso de derecho civil específico sobre una herramienta de notas (Granola) que no afecta plataformas GTM, GA4, Meta o server-side tracking. Monitorear si genera regulación sobre grabación de datos en contexto B2B, pero sin impacto inmediato en implementación de tracking.
 - **Enlace:** https://ppc.land/granola-sued-for-recording-meetings-without-consent-to-train-ai-models/
