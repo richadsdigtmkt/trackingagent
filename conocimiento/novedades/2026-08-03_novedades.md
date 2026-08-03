@@ -19,8 +19,8 @@ tags: [GA4]
 ### GBRAID/gad_ stripping causa atribución perdida en GA4
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Si los parámetros GBRAID y gad_ se eliminan (por filtros, limpieza de URL o consent mode mal configurado), el tráfico de Google Ads se atribuye como (not set) u orgánico, distorsionando ROI. Audita implementación de consent mode v2 y filtros GTM; verifica que los parámetros lleguen intactos a GA4.
-- **Deja obsoleto:** Consent Mode v1 sin configuración correcta de parámetros de Google Ads queda obsoleto frente a v2 con mapeo explícito de identifiers.
+- **Implicacion:** Si los parámetros GBRAID y gad_ se eliminan (por sanitización de URL, consent mode mal configurado o filtros GTM), las sesiones pagas se asignan a (not set) u organic, rompiendo ROI en GA4. Audita inmediatamente filtros GTM, Consent Mode v2 y políticas de stripping de parámetros; la corrección tarda 24-48h en reflejarse.
+- **Deja obsoleto:** Las prácticas de stripping manual de parámetros UTM sin preservar GBRAID/gad_ quedan obsoletas en GA4 con auto-tagging de Google.
 - **Enlace:** https://ppc.land/google-ads-clicks-lose-paid-attribution-when-gbraid-and-gad_-get-stripped/
 
 ## Relevancia media (0)
