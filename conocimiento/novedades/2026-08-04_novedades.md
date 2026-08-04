@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 2
 relevancia_alta: 0
-tags: [QA]
+tags: [QA, consent/privacy]
 ---
 
 # Novedades del sector — 2026-08-04
@@ -18,20 +18,18 @@ tags: [QA]
 
 _Nada en esta categoria._
 
-## Relevancia media (2)
+## Relevancia media (1)
 
-### Riesgos de cumplimiento en sitios generados por IA sin governance
+### IAB establece estándar de medición para visibilidad en IA
 
-- **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Advierte sobre problemas de tag governance en sitios creados con IA sin supervisión estructurada. Relevante para auditorías pre-implementación de tracking, pero no es cambio de plataforma.
-- **Enlace:** https://www.observepoint.com/blog/the-hidden-cost-of-vibe-coding-why-your-ai-generated-site-might-be-a-compliance-nightmare/
-
-### IAB establece estándar de medición para visibilidad de IA en ads
-
-- **Fuente:** PPC Land · **Area:** QA
-- **Implicacion:** Se normaliza cómo medir si los anuncios son vistos por humanos vs. bots/IA. Afecta a QA y validación de datos de campaña, pero no cambia implementación de tracking directo (GTM/GA4/Pixel).
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** La IAB ha publicado reglas sobre qué datos deben reportar las herramientas de visibilidad en IA. Si trabajas con clientes que usan estas tools o necesitan validar datos de IA, revisa las nuevas recomendaciones de la IAB para asegurar compliance en reporting.
 - **Enlace:** https://ppc.land/only-16-of-brands-track-ai-visibility-as-iab-sets-measurement-standard/
 
-## Relevancia baja (0)
+## Relevancia baja (1)
 
-_Nada en esta categoria._
+### Riesgos de compliance en sitios generados con IA sin validación
+
+- **Fuente:** ObservePoint Blog · **Area:** QA
+- **Implicacion:** Artículo de concienciación sobre calidad de código IA vs. cumplimiento normativo. Relevante para QA en proyectos con IA, pero no introduce cambios de plataforma ni políticas que obliguen a replantear implementaciones de tracking.
+- **Enlace:** https://www.observepoint.com/blog/the-hidden-cost-of-vibe-coding-why-your-ai-generated-site-might-be-a-compliance-nightmare/
