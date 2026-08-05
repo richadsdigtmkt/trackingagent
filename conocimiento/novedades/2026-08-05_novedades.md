@@ -20,16 +20,16 @@ _Nada en esta categoria._
 
 ## Relevancia media (2)
 
-### Meta ingresa en clean rooms de LiveRamp para deduplicación cross-channel
+### Meta en LiveRamp clean room: deduplicación para marcas, pero Publicis compromete neutralidad
 
 - **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Meta amplía su capacidad de medición en entornos neutral como LiveRamp, permitiendo atribución deduplicada con CTV, audio y programmatic. Relevante si usas clean rooms para reconciliación; monitorea implicaciones de privacidad y si afecta tu stack de medición actual.
+- **Implicacion:** Opción nueva para medir Meta con deduplicación en ecosistema neutral (LiveRamp), útil si usas clean rooms. No es obligatorio: evalúa si tu stack actual (GA4 + Meta Pixel) lo necesita; la adquisición de Publicis puede sesgar la plataforma hacia clientes Publicis.
 - **Enlace:** https://ppc.land/brand-marketers-gain-de-duplicated-meta-measurement-in-liveramp-clean-room/
 
-### IAB establece estándar de medición para visibilidad en IA
+### IAB establece estándar de medición para visibilidad de IA en anuncios
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Nueva normativa IAB sobre transparencia en herramientas de visibilidad de IA; relevante si trabajas con clientes que usan estas soluciones, pero no afecta implementación de tracking directo (GTM/GA4/Pixels). Monitorea para aconsejar a clientes sobre proveedores confiables.
+- **Implicacion:** IAB publica nuevas reglas sobre qué deben revelar los vendors de visibilidad de IA. Relevante si trabajas con clientes que compran ads y necesitan validar si sus anuncios se sirven ante humanos vs. bots/IA; seguir el estándar IAB para evaluar herramientas de medición.
 - **Enlace:** https://ppc.land/only-16-of-brands-track-ai-visibility-as-iab-sets-measurement-standard/
 
 ## Relevancia baja (0)
