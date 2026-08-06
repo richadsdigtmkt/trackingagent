@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### AppLovin: resultados financieros Q2, sin cambios en plataforma
+### AppLovin ralentiza crecimiento: impacto limitado en tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia de earnings de AppLovin sin impacto en capacidades de tracking o políticas de medición. No requiere acción del consultor de GTM/GA4/Pixel.
+- **Implicacion:** Noticia financiera de AppLovin sin cambios en políticas de tracking o privacidad. No requiere acción inmediata en GTM/GA4/Pixel.
 - **Enlace:** https://ppc.land/applovin-revenue-growth-slows-to-53-as-q3-margin-guidance-drops-to-83/
