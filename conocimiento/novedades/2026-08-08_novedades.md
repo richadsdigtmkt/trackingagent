@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 0
-tags: [Meta Pixel, QA, otros]
+tags: [others, otros]
 ---
 
 # Novedades del sector — 2026-08-08
@@ -18,24 +18,26 @@ tags: [Meta Pixel, QA, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (1)
+## Relevancia media (0)
 
-### OpenAI activa Advanced Matching automático en ChatGPT; plazo 10 días para opt-out
+_Nada en esta categoria._
 
-- **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Afecta a anunciantes que usan ChatGPT Ads: revisable qué datos se envían automáticamente a Meta Pixel vía Advanced Matching. Verificar configuración de consent y mapeo de datos en GTM si está integrado.
-- **Enlace:** https://ppc.land/chatgpt-advertisers-face-10-days-to-opt-out-of-automatic-advanced-matching/
+## Relevancia baja (3)
 
-## Relevancia baja (2)
-
-### Google Ads añade acceso directo a reportes de llamadas en conversiones
-
-- **Fuente:** PPC Land · **Area:** QA
-- **Implicacion:** UX mejorada para revisar detalles de conversiones telefónicas en Google Ads. No impacta implementación de tracking ni consent mode; útil para auditoría manual de leads.
-- **Enlace:** https://ppc.land/google-ads-gains-view-call-report-link-inside-phone-conversion-actions/
-
-### FouAnalytics lanza pricing plano para ad verification
+### Google Ads: acceso directo a reportes de llamadas en conversion actions
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia de mercado sobre estrategia de precios en ad verification. No afecta implementación de GTM, GA4, Meta Pixel ni server-side tracking en clientes DACH/UK/Spain.
+- **Implicacion:** UX improvement en Google Ads que facilita acceso a detalles de llamadas para lead gen. No requiere cambios de implementacion ni afecta tracking.
+- **Enlace:** https://ppc.land/google-ads-gains-view-call-report-link-inside-phone-conversion-actions/
+
+### ChatGPT: plazo para opt-out de advanced matching automático
+
+- **Fuente:** PPC Land · **Area:** others
+- **Implicacion:** OpenAI implementa advanced matching automático en anuncios (similar a Meta/Google). Si usas ChatGPT Ads, revisa configuración de privacidad en 10 días. No afecta directamente GTM/GA4/Meta Pixel en sitios web.
+- **Enlace:** https://ppc.land/chatgpt-advertisers-face-10-days-to-opt-out-of-automatic-advanced-matching/
+
+### FouAnalytics lanza verificación de anuncios a precio plano ($2M/año)
+
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Noticia de estrategia comercial en ad verification (competidor secundario vs. DoubleVerify). No afecta implementación de tracking ni políticas de consent/GA4/GTM.
 - **Enlace:** https://ppc.land/fouanalytics-prices-unlimited-ad-verification-at-2-million-a-year/
