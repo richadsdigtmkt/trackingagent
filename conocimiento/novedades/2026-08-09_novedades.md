@@ -20,11 +20,11 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Shopify añade 4 eventos GA4 (16 ago): solo purchase es server-side
+### Shopify amplía eventos GA4: 4 nuevos eventos, solo purchase es server-side
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Shopify amplía eventos GA4 nativos pero mantiene client-side para la mayoría. Revisa si tus implementaciones custom de estos 4 eventos pueden desactivarse para evitar duplicados. Verifica si el purchase server-side afecta tu data integrity vs. implementaciones previas.
-- **Deja obsoleto:** Implementaciones custom de view_item_list, remove_from_cart, view_cart, add_shipping_info en Shopify pueden volverse redundantes si usas tracking nativo; evalúa migración.
+- **Implicacion:** Shopify ha añadido view_item_list, remove_from_cart, view_cart y add_shipping_info a su tracking nativo GA4. Solo purchase es server-side; el resto son client-side. Revisa si tu implementación GTM/GA4 en Shopify duplica estos eventos o si puedes aprovecharlos.
+- **Deja obsoleto:** Potencialmente: implementaciones GTM custom para add_shipping_info, view_cart y remove_from_cart en Shopify pueden ser redundantes si usas el tracking nativo de Shopify.
 - **Enlace:** https://ppc.land/shopify-ga4-tracking-gains-4-events-august-17-only-purchase-is-server-side/
 
 ## Relevancia baja (0)
