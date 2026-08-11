@@ -20,16 +20,16 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Google presenta Advisor UI con IA en Ads y Analytics
+### Google Ads y GA4 integran herramientas AI: Advisor UI
 
 - **Fuente:** Google Analytics Blog · **Area:** GA4
-- **Implicacion:** Nueva interfaz con recomendaciones basadas en IA en Google Ads y GA4. Conviene revisar qué insights genera para optimizar estrategia de tracking, pero no es cambio obligatorio de implementación.
+- **Implicacion:** Nueva interfaz con recomendaciones asistidas por IA en GA4 y Google Ads. Requiere familiarizarse con las nuevas sugerencias automáticas para optimizar campañas, pero no impone cambios obligatorios en la implementación actual.
 - **Enlace:** https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/
 
 ## Relevancia baja (1)
 
-### Qué es Tag Management: artículo educativo básico
+### ¿Qué es Tag Management? - Artículo educativo básico
 
 - **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Contenido introductorio sobre conceptos fundamentales de tag management. No afecta estrategia ni implementación actual; útil solo como material de formación interna.
+- **Implicacion:** Contenido introductorio sobre TMSs (Google Tag Manager, Tealium, etc.). Útil como referencia pedagógica pero sin cambios de plataforma o política que requieran acción inmediata.
 - **Enlace:** https://www.observepoint.com/blog/tag-management/
