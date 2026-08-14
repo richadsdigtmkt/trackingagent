@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### CTV incrementa conversiones de paid search 22.3% (estudio Lifesight)
+### CTV incrementa conversiones en paid search 22.3% (estudio Lifesight)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Estudio de atribución sobre sinergia CTV + paid search. Relevante solo si trabajas con clientes de alto presupuesto en CTV; no afecta implementación de tracking.
+- **Implicacion:** Es un estudio de attribution sobre impacto de CTV en canales pagos. Valor informativo para estrategia omnicanal, pero no implica cambios en implementación de tracking ni políticas de plataformas.
 - **Enlace:** https://ppc.land/ctv-lifts-paid-search-conversions-22-3-lifesight-report-finds/
