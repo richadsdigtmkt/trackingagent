@@ -20,28 +20,28 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Canvas fingerprinting: técnica de ID de dispositivo que no depende de cookies
+### Canvas fingerprinting como alternativa post-cookie
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Conocer que existe esta técnica de identificación más allá de cookies es relevante para entender limitaciones de consent mode y primera parte en GA4/Meta. No requiere cambios inmediatos si ya usas server-side + consent mode, pero contextualiza por qué el tracking sin consentimiento persiste en la industria.
+- **Implicacion:** Conocer esta técnica de identificación de dispositivos es relevante para entender el panorama de tracking post-cookie, pero su uso en contextos DACH/UE está limitado por GDPR. Monitorear si clientes o plataformas la implementan.
 - **Enlace:** https://ppc.land/explaining-canvas-fingerprinting/
 
 ## Relevancia baja (3)
 
-### NIQ lanza medición retail para agentes IA; sin impacto directo en tracking
+### NIQ lanza medición retail con IA; sin impacto directo en tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia sobre evolución de herramientas de medición retail (NIQ Optiq Bridge) dirigida a agentes IA y retail media. No afecta implementación de GTM, GA4, Meta Pixel o consent mode en ecommerce convencional.
+- **Implicacion:** NIQ (proveedor de datos retail) integra IA para medición; no afecta implementación de GTM, GA4 o pixels. Monitorear si emerge como alternativa a data layer estándar en e-commerce.
 - **Enlace:** https://ppc.land/niq-ai-native-revenue-gains-34-as-agentic-commerce-product-nears-launch/
 
-### Klaviyo: plataforma CRM para email/SMS, no afecta tracking
+### Klaviyo: plataforma CRM B2C para email/SMS marketing
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un artículo descriptivo sobre Klaviyo como herramienta CRM/marketing automation, no sobre cambios en tracking, GA4, GTM o consent. No requiere acción inmediata.
+- **Implicacion:** Contenido educativo sobre una plataforma de email/SMS CRM. No afecta infraestructura de conversion tracking ni compliance en DACH/ES/UK a menos que se integre como destino de datos first-party.
 - **Enlace:** https://ppc.land/klaviyo/
 
-### Google Ads añade dashboards IA con prompts de texto
+### Google Ads añade dashboards IA por prompts de texto
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Mejora de UX en Google Ads con análisis comparativos automáticos. No requiere acción inmediata: es feature de reporting, no cambio en implementación de tracking.
+- **Implicacion:** Mejora UX de Google Ads con análisis comparativo e IA conversacional. No afecta implementación de tracking, GTM, GA4 ni Pixel. Monitorear si llega a DACH/España en próximos meses.
 - **Enlace:** https://ppc.land/google-ads-gains-ai-dashboards-built-from-text-prompts/
