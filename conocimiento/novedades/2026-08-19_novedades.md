@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 1
 relevancia_alta: 0
-tags: [consent/privacy]
+tags: [otros]
 ---
 
 # Novedades del sector — 2026-08-19
@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Fallo judicial sobre Grok: términos de servicio ilegibles no vinculan
+### Fallo judicial sobre claridad de términos en Grok; no afecta tracking
 
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Caso específico de xAI sin impacto directo en GTM/GA4/Meta. Refuerza que términos y consentimiento deben ser legibles (font size, contraste); revisar que tus implementaciones de consent dialogs cumplen estándares de accesibilidad.
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Es un caso de responsabilidad contractual de xAI/Grok, no una política de plataforma de tracking. No requiere cambios en implementaciones GTM, GA4, Meta Pixel o consent mode.
 - **Enlace:** https://ppc.land/xai-loses-texas-venue-bid-as-court-finds-grok-terms-too-faint-to-bind/
