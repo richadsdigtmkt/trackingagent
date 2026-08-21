@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 5
 relevancia_alta: 0
-tags: [Meta Pixel, QA, consent/privacy, otros]
+tags: [GA4, consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-08-21
@@ -20,34 +20,34 @@ _Nada en esta categoria._
 
 ## Relevancia media (2)
 
-### Engaged View: crédito de conversión sin click en anuncios de video
+### Engaged View: crédito de conversión sin clic en anuncios de vídeo
 
-- **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Es un modelo de atribución de Google Ads para video que asigna crédito de conversión sin necesidad de click. Revisa si tus campañas de video están configuradas para capturar este tipo de conversiones en GA4 y Meta Pixel, y ajusta las reglas de conversión si es necesario.
+- **Fuente:** PPC Land · **Area:** GA4
+- **Implicacion:** Necesitas entender cómo Google/Meta atribuyen conversiones en campañas de vídeo sin requerir clic. Revisa si tus modelos de atribución en GA4 y configuraciones de conversión capturan correctamente estas interacciones de view-through.
 - **Enlace:** https://ppc.land/explaining-engaged-view/
 
-### Explicación de Consent Mode: API de Google para gestionar consentimiento
+### Consent Mode: guía de relé de consentimiento a tags de Google
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** PPC Land publica un artículo explicativo sobre Consent Mode. Útil para repasar fundamentos (API de Google, ajuste de recolección, modelado de conversiones), pero verifica si contiene novedades sobre implementación v2 o cambios recientes en GA4/GTM antes de compartirlo con clientes DACH/ES/UK.
+- **Implicacion:** Útil para refrescar conceptos de Consent Mode v2 (behavioral/analytics), pero revisa si el artículo cubre server-side consent forwarding o solo client-side. Confirma que tu stack GTM/GA4 implementa consent blocking correctamente.
 - **Enlace:** https://ppc.land/explaining-consent-mode/
 
 ## Relevancia baja (3)
 
-### Deutsche Bahn exige aviso previo para grabar en trenes
+### Deutsche Bahn exige aviso previo para filmar en trenes
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Política operativa de una empresa sobre derechos de imagen en espacios privados; no afecta tracking, GTM, GA4 ni consent mode técnico. Irrelevante para conversion tracking.
+- **Implicacion:** Norma operativa de Deutsche Bahn sobre derechos de imagen en espacios privados; no afecta tracking, GA4, GTM ni implementación de consent en web. Contexto de privacidad física, no digital.
 - **Enlace:** https://ppc.land/deutsche-bahn-sets-a-5-day-notice-rule-for-press-filming-inside-its-trains/
 
-### Microsoft Clarity: Clasificación de errores JS en sesiones
+### Errores JS en Microsoft Clarity: explicación técnica
 
-- **Fuente:** PPC Land · **Area:** QA
-- **Implicacion:** Es una explicación de cómo Clarity agrupa errores JS en recordings. Útil para QA y debugging, pero no impacta la implementación de GTM, GA4, Meta Pixel o consent mode.
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Información educativa sobre cómo Clarity captura excepciones no controladas. Útil para debugging pero no impacta implementación de tracking real.
 - **Enlace:** https://ppc.land/explaining-js-error/
 
-### Rage click: detección de frustración en analytics
+### Rage click: señal de frustración en analytics, limitaciones técnicas
 
-- **Fuente:** PPC Land · **Area:** QA
-- **Implicacion:** Contenido educativo sobre interpretación de eventos de clics rápidos repetidos. Útil para QA/UX pero no impacta implementación de tracking ni configuración de GA4/GTM.
+- **Fuente:** PPC Land · **Area:** GA4
+- **Implicacion:** Conocimiento útil sobre comportamiento de usuarios y limitaciones de detección en herramientas analytics. No requiere cambios inmediatos en implementación de tracking.
 - **Enlace:** https://ppc.land/explaining-rage-click/
