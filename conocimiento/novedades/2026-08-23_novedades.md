@@ -3,9 +3,9 @@ tema: conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)
 fecha: 2026-08-23
 fuentes_escaneadas: 5
 fuentes_caidas: 0
-novedades: 4
-relevancia_alta: 0
-tags: [GTM, consent/privacy, otros]
+novedades: 6
+relevancia_alta: 1
+tags: [GA4, GTM, consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-08-23
@@ -14,34 +14,45 @@ tags: [GTM, consent/privacy, otros]
 - **Leidas sin novedades (OK, sin publicaciones en la ventana):** Simo Ahava, David Vallejo (Thyngster), ObservePoint Blog, Google Analytics Blog
 - **Caidas / no leidas (revisar URL si persiste):** ninguna
 
-## Relevancia alta (0)
+## Relevancia alta (1)
 
-_Nada en esta categoria._
-
-## Relevancia media (2)
-
-### Visual tagging de Google: cobertura limitada al 70-80%, sin gtag config
+### Google Ads ignora conversiones offline subidas tras 7 días en atribución
 
 - **Fuente:** PPC Land · **Area:** GTM
-- **Implicacion:** Visual tagging sigue en beta restringida a conversiones de compra en Google Ads y funciona sin gtag config command. Útil para casos simples, pero requiere implementación manual para tracking complejo; no reemplaza GTM en arquitecturas avanzadas.
+- **Implicacion:** Las conversiones offline cargadas después de 7 días no se incluyen en modelos de atribución, aunque sí en reportes estándar. Requiere revisar SLAs de carga de datos offline y ajustar ventanas de análisis en modelos de atribución si usas este tipo de datos.
+- **Deja obsoleto:** Prácticas que asumen paridad total entre conversiones estándar y atribuidas para offline data quedan obsoletas.
+- **Enlace:** https://ppc.land/google-ads-attribution-ignores-offline-conversions-uploaded-after-7-days/
+
+## Relevancia media (4)
+
+### Controles de puja reducen; medición de anuncios afectada (Google, Microsoft)
+
+- **Fuente:** PPC Land · **Area:** GA4
+- **Implicacion:** Monitorizar cambios en Google Ads y Microsoft Advertising que limitan opciones de puja y medición. Revisar dashboards de GA4 y Meta para validar integridad de datos de conversión.
+- **Enlace:** https://ppc.land/bid-controls-shrink-as-ad-measurement-breaks-week-of-august-17/
+
+### Visual tagging de Google: limitado a conversiones purchase, sin gtag config
+
+- **Fuente:** PPC Land · **Area:** GTM
+- **Implicacion:** El visual tagging beta de Google Ads solo cubre casos simples (70-80%) y está restringido a purchase conversions. Útil para implementaciones rápidas pero insuficiente para tracking complejo; requiere gtag manual para casos avanzados.
 - **Enlace:** https://ppc.land/googles-visual-tagging-covers-the-easy-70-to-80-of-cases-zambon-says/
 
-### ID5: alternativa de ID universal para post-cookies en publicidad
+### Google Shopping rechazará imágenes <500x500px desde enero 2027
+
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Afecta a feeds de productos en Google Shopping/Merchant Center, no a tracking directo. Audita ahora tamaños en clientes e-commerce; prepara revalidación de feeds antes de enero 2027 para evitar desaprobaciones.
+- **Enlace:** https://ppc.land/google-blocks-product-images-under-500-x-500-pixels-from-31-january-2027/
+
+### ID5: alternativa de identificación universal sin cookies de terceros
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** ID5 es una solución de identity graph relevante para mantener targeting en contextos sin cookies de terceros (EU/UK). Útil conocer su funcionamiento y limitaciones para evaluar estrategias de server-side y consent mode en DACH/España/UK.
+- **Implicacion:** Conocer ID5 como solución de identity graph post-cookies es relevante para contextos de consent mode y server-side tracking. Evaluar si aplica en estrategias DACH/España/UK según requisitos de privacidad local, pero no es cambio de plataforma que obligue a implementar.
 - **Enlace:** https://ppc.land/explaining-id5/
 
-## Relevancia baja (2)
+## Relevancia baja (1)
 
-### 72% de usuarios borran apps retail tras primer uso; orden de features AI
+### 72% de compradores eliminan apps retail tras primer uso
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Dato de comportamiento del consumidor para estrategia de marketing, sin impacto directo en implementación de tracking. Informativo para briefing de clientes sobre retention, no requiere acción técnica.
+- **Implicacion:** Dato de comportamiento consumer sobre retención de apps, relevante para estrategia de marketing pero no afecta implementación técnica de tracking. Informativo para contexto de campañas, sin cambios operacionales en GTM/GA4/pixels.
 - **Enlace:** https://ppc.land/adobe-finds-72-of-shoppers-delete-retail-apps-after-one-use/
-
-### Google Shopping: límite mínimo 500x500px desde enero 2027
-
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Afecta a feed de productos (Google Merchant Center), no a tracking. Revisar specs de imagen en clientes con campañas Shopping, pero es operativa de e-commerce, no GTM/GA4/tracking.
-- **Enlace:** https://ppc.land/google-blocks-product-images-under-500-x-500-pixels-from-31-january-2027/
