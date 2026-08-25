@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Demanda a Twitch por uso de contenido creator en entrenamiento de IA
+### Demanda a Twitch por uso de contenido en entrenamiento de IA
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Caso legal sobre consentimiento en uso de datos para IA; sin impacto inmediato en tracking, GTM, GA4 o consent mode. Seguir si afecta políticas de Twitch sobre datos de creator.
+- **Implicacion:** Caso de litigio sobre consentimiento de datos de creadores en Twitch. No afecta directamente implementación de tracking o consent mode en DACH/España/UK; monitorear si genera regulación futura sobre uso de datos en IA.
 - **Enlace:** https://ppc.land/a-twitch-lawsuit-puts-a-price-on-the-creator-work-that-trains-ai-models/
