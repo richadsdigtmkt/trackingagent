@@ -24,26 +24,26 @@ _Nada en esta categoria._
 
 ## Relevancia baja (4)
 
-### Cint sale de Nasdaq: cambio accionario sin impacto directo en tracking
+### Cint se privatiza: cambio accionarial sin impacto en tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cint (proveedor de data/research) cambia de control pero mantiene operaciones. Sin efecto inmediato en GTM, GA4 o implementaciones de conversion tracking en DACH/España/UK.
+- **Implicacion:** Cambio de estructura corporativa de Cint (proveedor de panels/insights) que no afecta directamente implementaciones de GTM, GA4 o Meta Pixel. Monitorear solo si usas Cint para data enrichment en audience building.
 - **Enlace:** https://ppc.land/cint-exits-nasdaq-stockholm-as-triton-closes-sek-2bn-take-private-deal/
 
-### Herramienta UNITIX gratuita para optimizar títulos en Amazon
+### UNITIX: herramienta gratis para auditar títulos Amazon
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un utility tool para optimizar títulos de productos en Amazon (truncamiento a 75 caracteres). No afecta tracking, consent ni implementación de píxeles; es un caso de uso específico de ecommerce que no impacta la estrategia de conversion tracking del consultor.
+- **Implicacion:** Herramienta de optimización SEO para Amazon sellers; no afecta tracking, conversion pixel o consent mode. Útil si gestionas cuentas Amazon pero fuera del scope de consultoría GTM/GA4/Meta.
 - **Enlace:** https://ppc.land/free-unitix-tool-flags-amazon-titles-that-lose-the-brand-past-character-75/
 
-### Brecha de medición TV local (20-30%) por piratería y co-viewing
+### Brecha de medición en TV local (20-30%): impacto en derechos
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Afecta principalmente a medición de TV tradicional, no a digital tracking (GTM/GA4/Meta). No requiere acción inmediata para consultor de conversion tracking digital.
+- **Implicacion:** Afecta principalmente a medición de TV tradicional y derechos de broadcasting en EE.UU., no a conversion tracking digital. Sin impacto directo en GTM, GA4, Meta Pixel o consent mode.
 - **Enlace:** https://ppc.land/cimm-puts-local-tv-measurement-gap-at-20-30-of-total-viewing/
 
-### Adobe DSP lanza atribución footfall transfronteriza en APAC
+### Adobe DSP: atribución de footfall transfronterizo en APAC
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Novedad de Adobe DSP específica para viajes/retail/QSR con medición de visitas entre países. No afecta a consultoría GTM/GA4/Meta Pixel en DACH/España/UK; monitorizar si expande a estos mercados.
+- **Implicacion:** Mejora de Adobe DSP para tracking de visitas offline en viajes/retail, relevante solo si usas Adobe DSP en APAC. No afecta GTM, GA4, Meta Pixel ni server-side en DACH/España/UK por ahora.
 - **Enlace:** https://ppc.land/adobe-dsp-gains-cross-border-footfall-attribution-live-first-in-apac/
