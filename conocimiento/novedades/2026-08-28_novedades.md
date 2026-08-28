@@ -24,50 +24,50 @@ _Nada en esta categoria._
 
 ## Relevancia baja (8)
 
-### Página de estado de plantillas GTM: feature poco conocida
+### GTM Community Templates: página de estado para autores
 
 - **Fuente:** Simo Ahava · **Area:** GTM
-- **Implicacion:** Útil si desarrollas o mantienes plantillas personalizadas en GTM Gallery para diagnosticar errores de sincronización con GitHub. No afecta a implementaciones estándar.
+- **Implicacion:** Simo Ahava documenta una función existente en Community Template Gallery útil solo para autores de plantillas GTM. Sin impacto en implementaciones de tracking estándar.
 - **Enlace:** https://www.simoahava.com/gtmtips/gtm-template-status-page/
 
-### Privacy Compliance ROI: 4 razones presupuestarias
+### Artículo sobre ROI de compliance de privacidad (contenido general)
 
 - **Fuente:** ObservePoint Blog · **Area:** consent/privacy
-- **Implicacion:** Artículo de posicionamiento de ObservePoint sobre business case del compliance. No hay cambios de política o plataforma que afecten implementaciones actuales.
-- **Enlace:** https://www.observepoint.com/blog/privacy-compliance-pays-for-itself/
+- **Implicacion:** Es un argumento de negocio para justificar inversión en compliance, no un cambio de plataforma o política. Útil para presentaciones a stakeholders, pero sin implicaciones técnicas inmediatas.
+- **Enlace:** https://www.observepoint.com/blog/reasons-to-include-privacy-compliance-in-your-budget/
 
-### Terminología de media buying y medición en setup screens
+### Terminología de media buying y measurement: guía de vocabulario
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre nomenclatura de paid search/social y medición. No afecta implementación de tracking ni políticas de plataformas.
+- **Implicacion:** Artículo educativo sobre estructuración conceptual en media buying. Útil para nivelación de equipo pero no implica cambios en implementación de tracking ni políticas de plataformas.
 - **Enlace:** https://ppc.land/buying-job-happens-in-the-setup-screen/
 
-### Análisis comparativo: acuerdo Meta sobre menores replica estructura tabacalera
+### Análisis comparativo: acuerdo Meta vs. estructura de tabaco
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Artículo de opinión sobre estructura legal del acuerdo de Meta con estados sobre protección de menores. No implica cambios en plataforma, políticas de tracking o implementación técnica de consent.
+- **Implicacion:** Artículo opinativo sobre estructura legal del acuerdo de Meta con estados, sin implicaciones directas en implementación de tracking o consent. No requiere acción inmediata.
 - **Enlace:** https://ppc.land/metas-teen-settlement-borrows-tobaccos-structure-and-tobaccos-flaws/
 
-### Explicación de marketing de afiliados y ventanas de cookie
+### Explicación de marketing de afiliación y ventanas de cookie
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre mecanismos de affiliate marketing. No representa cambios en plataformas de tracking (GTM, GA4, Meta Pixel) ni políticas de privacidad que afecten implementaciones actuales.
+- **Implicacion:** Contenido educativo sobre mecanismos de atribución en afiliación. No requiere acción inmediata a menos que el consultor gestione campañas de afiliados.
 - **Enlace:** https://ppc.land/affiliate/
 
-### 67% de marketers encuentra difícil medir influencers
+### 67% de marketers ve medición de influencers como desafío
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Encuesta sobre dolor en marketing de influencers (negociación, contratos, fees). No es cambio de plataforma ni política que afecte tracking técnico.
+- **Implicacion:** Estudio sobre dolor operativo en influencer marketing; no es cambio de plataforma o política que afecte implementación de tracking. Relevancia marginal para consultor GTM/GA4/Pixel.
 - **Enlace:** https://ppc.land/ana-finds-67-of-marketers-call-influencer-measurement-the-hardest-step/
 
-### Google Demand Gen muestra +30% conversiones en datos internos
+### Demand Gen mejora 30% en datos internos de Google (claim marketing)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Información de rendimiento de Demand Gen (formato publicitario de Google). Útil para estrategia de clientes, pero no impacta implementación técnica de tracking ni compliance.
+- **Implicacion:** Google promociona mejoras en Demand Gen con datos propios; útil para contexto de rendimiento pero no obliga cambios inmediatos en implementación de tracking.
 - **Enlace:** https://ppc.land/demand-gen-gains-30-in-conversions-on-googles-own-internal-test-data/
 
-### Amazon Associates en YouTube: retraso de 2 meses en pagos y datos agregados
+### Amazon Associates en YouTube: retrasos de pago y falta de granularidad en datos
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Afecta solo a creadores de contenido con Amazon Associates en YouTube, no a implementadores de tracking en sitios web. Sin impacto en GTM, GA4, Meta Pixel o server-side tracking.
+- **Implicacion:** Afecta solo a creators de YouTube que usan Amazon Associates, no a consultores de conversion tracking B2B. No requiere cambios en implementación de GTM/GA4/pixels.
 - **Enlace:** https://ppc.land/amazon-tagging-on-youtube-pays-creators-two-months-after-commissions-lock/
