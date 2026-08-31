@@ -20,23 +20,23 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Open rate: pixel de seguimiento y requisitos de consentimiento en Francia
+### Open rate: tracking pixel, Apple Mail Privacy y exigencias francesas
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** El tracking de open rates en email requiere consentimiento explícito en Francia (y potencialmente otros DACH/UK). Revisa si tus clientes con audiencias francesas tienen implementado consentimiento previo al pixel de tracking de email.
-- **Deja obsoleto:** Apple Mail Privacy Protection (2021) ya obsoletizó el tracking de open rates basado en pixel para usuarios iOS; el artículo lo menciona pero es cambio conocido desde 2021.
+- **Implicacion:** Conocer cómo Apple Mail Privacy Impact (2021) cambió la medición de open rates y que Francia exige consentimiento explícito para píxeles de tracking en email. Relevante si gestionas campañas de email o atribución en mercados DACH/España/UK.
+- **Deja obsoleto:** Las métricas de open rate como indicador fiable de engagement quedaron parcialmente obsoletas desde Apple Mail Privacy (2021); ahora requieren validación con eventos downstream en GA4/servidor.
 - **Enlace:** https://ppc.land/open-rate/
 
 ## Relevancia baja (2)
 
-### Netflix-iHeartMedia: contenido nuevo sin impacto en tracking
+### Netflix y iHeartMedia lanzan podcasts de video sin métricas claras
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Acuerdo de contenido entre plataformas; no afecta a GTM, GA4, Meta Pixel ni consent mode. Relevante solo si gestionas campañas en podcast/streaming con métricas custom.
+- **Implicacion:** Noticia sobre contenido multimedia Netflix/iHeartMedia sin relevancia directa para tracking de conversiones en mercados DACH/UK/Spain. No afecta GTM, GA4, Meta Pixel ni consent mode.
 - **Enlace:** https://ppc.land/netflix-gains-two-martha-stewart-shows-in-iheartmedia-video-podcast-deal/
 
-### NIQ lanza herramientas AI con datos retail, sin integración ChatGPT
+### NIQ lanza herramientas IA con datos de retail; no afecta GTM/GA4
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** NIQ (ex Nielsen) integra IA en su plataforma de medición retail, pero mantiene datos separados de OpenAI. No afecta directamente tracking/GTM/GA4/pixel, salvo si usas NIQ para benchmarking de conversiones.
+- **Implicacion:** NIQ integra IA en su plataforma de medición retail (Optiq Chat/Bridge) sin exponer datos a ChatGPT. Sin impacto directo en tracking o consent mode para DACH/España/UK.
 - **Enlace:** https://ppc.land/niq-keeps-its-160-petabyte-data-engine-out-of-chatgpt-in-openai-tie-up/
