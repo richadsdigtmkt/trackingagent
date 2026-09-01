@@ -20,16 +20,16 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### SKAdNetwork: API de atribución iOS de Apple explicado
+### Mobile Measurement Partners: atribución de installs y eventos en apps
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Útil para entender la atribución de instalaciones en iOS sin tracking de IDFA, relevante si gestionas campañas de apps o retargeting en Apple. Revisar si tus clientes con apps iOS necesitan implementar postbacks de SKAdNetwork.
-- **Enlace:** https://ppc.land/skadnetwork/
+- **Implicacion:** Conocimiento útil sobre cómo funcionan las plataformas de medición móvil (AppsFlyer, Branch, etc.) y sus limitaciones de atribución. Relevante si trabajas con clientes que promocionan apps, pero no es cambio de política.
+- **Enlace:** https://ppc.land/mobile-measurement-partner/
 
 ## Relevancia baja (1)
 
-### Explicación sobre plataformas de medición móvil (MMP)
+### SKAdNetwork: explicación de atribución iOS de Apple
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre cómo funcionan los MMPs y sus limitaciones en atribución de apps. Útil para contexto general pero no representa cambio de política o plataforma que requiera acción inmediata.
-- **Enlace:** https://ppc.land/mobile-measurement-partner/
+- **Implicacion:** Contenido educativo sobre la API de atribución de Apple para iOS. Relevante solo si trabajas campañas de app install en iOS; no afecta tracking web (GTM, GA4, Meta Pixel) en DACH/España/UK.
+- **Enlace:** https://ppc.land/skadnetwork/
