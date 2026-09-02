@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Count-on-download: método legacy de medición de impresiones en display
+### Count-on-Download: método histórico de medición de display
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un método histórico de medición de anuncios display (ya superado). Conocerlo sirve para entender por qué los proveedores migraron a métodos más precisos, pero no requiere acción inmediata en implementaciones actuales.
+- **Implicacion:** Explicación retrospectiva de un método legacy de medición de impressiones en display (decade-old). No implica cambio de acción: es contexto educativo sobre cómo se medía históricamente.
 - **Enlace:** https://ppc.land/count-on-download/
