@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 0
-tags: [Meta Pixel, otros]
+tags: [otros]
 ---
 
 # Novedades del sector — 2026-09-03
@@ -20,22 +20,22 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Device graph: identificación cross-device para capping y medición
+### Device Graph: concepto de base de datos para ID de dispositivos
 
-- **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Conocer cómo funcionan los device graphs es relevante para entender las capacidades de targeting y frequency capping multi-dispositivo en plataformas como Google y Meta. Evalúa si tu stack actual aprovecha esta funcionalidad o si hay limitaciones por consent/privacy en tus mercados.
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Conocer qué es device graph ayuda a entender cómo plataformas (Google, Meta) unifican identidades en multipantalla para capping y medición. Relevante si trabajas frequency capping o atribución cross-device, pero es concepto, no cambio operativo inmediato.
 - **Enlace:** https://ppc.land/device-graph/
 
 ## Relevancia baja (2)
 
-### Trade Desk integra estudios de brand lift de LoopMe a 1M impresiones
+### Trade Desk + LoopMe: brand lift studies desde 1M impresiones
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia sobre capacidades de medición en Trade Desk DSP. No afecta implementación de GTM, GA4, Meta Pixel ni consent mode en DACH/España/UK.
+- **Implicacion:** Mejora de accesibilidad para brand lift en The Trade Desk (menor barrera vs competencia). No afecta implementación de tracking ni consent mode en DACH/España/UK.
 - **Enlace:** https://ppc.land/trade-desk-buyers-gain-loopme-brand-lift-studies-at-1-million-impressions/
 
-### Currency: servicio de medición de audiencia para deals publicitarios
+### Currency: concepto de medición de audiencia en publicidad programática
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre mecanismos de transacción en programmatic. No es un cambio de plataforma ni política que afecte implementación de tracking.
+- **Implicacion:** Contenido educativo sobre cómo funciona la moneda de transacción en compra programática (audience measurement). No requiere acción inmediata para implementación de tracking.
 - **Enlace:** https://ppc.land/currency/
