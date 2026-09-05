@@ -20,22 +20,22 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### SSAI: inserción de anuncios server-side en video
+### SSAI: inserción de anuncios server-side en video y su impacto en medición
 
 - **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** SSAI afecta la medición de conversiones en video porque los píxeles no se disparan antes de que el anuncio llegue al dispositivo. Verifica si tus clientes usan video SSAIy ajusta estrategia de tracking (considerar server-side GTM, eventos de video).
+- **Implicacion:** SSAI (server-side ad insertion) afecta la visibilidad de píxeles y eventos de tracking en video streaming. Conviene revisar cómo se configuran conversiones en campañas de video con SSAI, especialmente en GA4 y Meta Pixel, ya que el stitching del servidor puede bloquear tags cliente.
 - **Enlace:** https://ppc.land/ssai/
 
 ## Relevancia baja (2)
 
-### VAST: Especificación IAB para video ads
+### VAST: especificación IAB para video ads (explicación general)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Artículo educativo sobre estándar VAST (video ad serving). Útil para entender ecosystem de video ads pero no implica cambios en implementación actual de tracking.
+- **Implicacion:** Contenido educativo sobre un estándar existente de video advertising. No requiere acción inmediata a menos que implementes tracking en video ads server-side.
 - **Enlace:** https://ppc.land/vast/
 
-### Dolly Parton en YouTube Charts: caso de estudio de tracking
+### Dolly Parton en YouTube Charts: noticia de música, no de tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un caso anecdótico sobre rendimiento de catálogo musical en YouTube, no un cambio de política o funcionalidad de tracking. Sin implicación operativa para GTM, GA4 o Pixel.
+- **Implicacion:** No afecta a implementación de conversion tracking, GA4, GTM ni consent. Es contenido de entretenimiento sobre charts musicales.
 - **Enlace:** https://ppc.land/dolly-partons-catalog-gains-24-youtube-chart-slots-in-3-days/
