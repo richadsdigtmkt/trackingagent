@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 6
 relevancia_alta: 0
-tags: [GA4, GTM, otros]
+tags: [GA4, otros, server-side]
 ---
 
 # Novedades del sector — 2026-09-07
@@ -20,40 +20,40 @@ _Nada en esta categoria._
 
 ## Relevancia media (2)
 
-### Auto-tagging: cómo plataformas de ads inyectan IDs de click en URLs
+### Auto-tagging: cómo los ad networks tagean clicks para matching
 
-- **Fuente:** PPC Land · **Area:** GTM
-- **Implicacion:** Entender auto-tagging es clave para GA4 y server-side tracking: explica cómo Meta/Google inyectan gclid/fbclid. Asegúrate de que GTM/GA4 capturan estos parámetros y que server-side los valida antes de enviar a plataformas.
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Entender auto-tagging es clave para server-side tracking y consent mode. Verifica que tu setup GTM/GA4 captura el parámetro único (gclid, fbclid, etc.) sin bloques de consentimiento que impidan el matching.
 - **Enlace:** https://ppc.land/auto-tagging/
 
-### Modelado estadístico en publicidad: conversiones estimadas vs observadas
+### Modelos estadísticos en publicidad: conversiones estimadas vs observadas
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Necesario entender cómo GA4, Meta y plataformas de ads estiman datos no observados (modeled conversions) para interpretar correctamente reports en contexto post-cookie. Afecta a reconciliación de datos y decisiones de optimización.
+- **Implicacion:** Conocer cómo funcionan las conversiones modeladas (GA4, Meta) y mix models es clave para interpretar datos correctamente en contexto de privacy. Revisar si tus reportes cliente distinguen datos reales de estimaciones.
 - **Enlace:** https://ppc.land/statistical-modelling/
 
 ## Relevancia baja (4)
 
-### YouTube añade métrica de co-viewers solo visible para creadores
+### YouTube añade métrica de co-viewers para creadores (sin impacto en tracking)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Métrica de audiencia en TV que no afecta tracking de conversión ni compliance. Relevante solo si gestionas canales YouTube como brand/creator, pero sin impacto en GTM, GA4 o pixel.
+- **Implicacion:** Métrica nueva en YouTube Studio para creadores, no afecta tracking de conversión ni medición de campañas en plataformas DACH/ES/UK. Sin acción requerida.
 - **Enlace:** https://ppc.land/youtube-counts-co-viewers-in-a-metric-only-creators-can-see/
 
 ### SKU como unidad de medición en retail media
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Conocimiento contextual sobre terminología retail; no implica cambios en implementación de tracking ni en GTM, GA4 o pixels.
+- **Implicacion:** Contenido educativo sobre SKU en retail media. No es un cambio de plataforma ni política que requiera acción inmediata en GTM, GA4 o tracking.
 - **Enlace:** https://ppc.land/sku/
 
-### Explicación de funnel de conversión: conceptos básicos
+### Explicación de conversion funnel: conceptos básicos
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un artículo educativo sobre conceptos fundamentales de funnels. No introduce cambios de plataforma ni políticas nuevas que afecten tu tracking.
+- **Implicacion:** Contenido educativo sobre estructura de funnels de conversión. No requiere acción inmediata a menos que el consultor necesite refrescar conceptos teóricos de medición.
 - **Enlace:** https://ppc.land/conversion-funnel/
 
-### Explicación general de marketing en redes sociales
+### Explicación general de social media marketing y medición
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un artículo educativo introductorio sobre conceptos generales de marketing en redes sociales. No contiene cambios de plataforma, políticas nuevas ni actualizaciones que requieran acción inmediata.
+- **Implicacion:** Contenido educativo introductorio sobre marketing en redes sociales. No requiere acción inmediata; útil solo como referencia conceptual para clientes que desconocen el tema.
 - **Enlace:** https://ppc.land/social-media-marketing/
