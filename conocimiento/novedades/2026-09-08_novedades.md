@@ -18,26 +18,24 @@ tags: [consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (0)
+## Relevancia media (1)
 
-_Nada en esta categoria._
-
-## Relevancia baja (3)
-
-### Kidtech: publicidad a menores de 13 sin datos personales
+### Kidtech: publicidad a menores sin datos personales con COPPA
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Explicación educativa sobre tecnología COPPA para mercados con regulación infantil (UK, DACH). Revisar si tus clientes tienen audiencia infantil; de ser así, evaluar cumplimiento en GA4 y pixel setup.
+- **Implicacion:** Relevante si trabajas con clientes de productos/servicios dirigidos a menores en mercados DACH/ES/UK. Requiere implementar flags COPPA, señales contextuales y consentimiento parental verificable en GA4/Meta Pixel; consulta normativa AEPD/ICO sobre edad mínima.
 - **Enlace:** https://ppc.land/kidtech/
 
-### COPPA: regulación US de menores (bajo 13) - no afecta DACH/ES/UK
+## Relevancia baja (2)
+
+### COPPA: regulación US para menores de 13 años
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** COPPA es legislación exclusiva de EE.UU. (1998). Para mercados DACH, España y UK aplica RGPD + legislación local (no COPPA). Relevante solo si el cliente opera servicios en EE.UU. dirigidos a menores.
+- **Implicacion:** Artículo explicativo sobre COPPA (ley estadounidense de 1998). Solo relevante si clientes operan en US y dirigen tráfico a menores; no afecta mercados DACH/España/UK como foco principal.
 - **Enlace:** https://ppc.land/coppa/
 
-### Explicación de tracking SDK en apps móviles
+### Explicación general de tracking SDKs móviles
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre mecanismos de SDKs de tracking en móvil. Útil para entender arquitectura pero no indica cambios de plataforma o política que requieran acción inmediata.
+- **Implicacion:** Contenido educativo sobre fundamentos de SDKs de tracking en apps móviles. Útil para contexto general pero no anuncia cambios de plataforma o políticas que requieran acción inmediata.
 - **Enlace:** https://ppc.land/tracking-sdk/
