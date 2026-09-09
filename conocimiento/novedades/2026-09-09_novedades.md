@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### GTM genera automáticamente nombres de versión con IA
+### GTM: Feature de IA para nombrar versiones automáticamente
 
 - **Fuente:** Simo Ahava · **Area:** GTM
-- **Implicacion:** Característica de conveniencia para organización de versiones. Úsala si tu equipo carece de disciplina en naming, pero no cambia la estrategia de tracking ni requiere acción inmediata.
+- **Implicacion:** GTM genera automáticamente nombres y descripciones de versiones. Es una mejora de UX para organización, pero no cambia la implementación técnica ni es obligatorio adoptarla.
 - **Enlace:** https://www.simoahava.com/gtmtips/automatically-generate-version-information-in-gtm/
