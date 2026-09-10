@@ -18,38 +18,36 @@ tags: [consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (0)
+## Relevancia media (1)
 
-_Nada en esta categoria._
+### Plataforma de gestión de consentimiento: software, señales y bloqueo de ingresos
 
-## Relevancia baja (5)
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Es un resumen educativo sobre qué es una CMP y cómo funciona (recolección, codificación, bloqueo de revenue). Útil para refrescar conceptos, pero no anuncia cambios de plataforma ni nuevas regulaciones que obliguen a actuar ahora.
+- **Enlace:** https://ppc.land/consent-management-platform/
 
-### Inuvo integra verificación post-bid con FouAnalytics en IntentKey
+## Relevancia baja (4)
+
+### Inuvo integra verificación post-bid con FouAnalytics
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia sobre una integración específica de un vendor de DSP (Inuvo) con herramienta de verificación. No afecta infraestructura estándar de GTM, GA4, Meta Pixel o server-side tracking en DACH/ES/UK.
+- **Implicacion:** Noticia sobre integración de herramienta de verificación de fraude en DSP específico (Inuvo). No afecta infraestructura estándar de tracking (GTM, GA4, Pixel, server-side) ni políticas de consent.
 - **Enlace:** https://ppc.land/inuvo-gains-post-bid-verification-from-fouanalytics-inside-intentkey/
 
-### Microsoft Ads: AI Max muestra +8% conversiones en test
+### Microsoft Ads: AI Max muestra +8% conversiones en beta
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Resultado de test interno de Microsoft en AI Max bidding. Sin cambio de política o implementación obligatoria; solo referencia de rendimiento en entorno controlado.
+- **Implicacion:** Noticia de rendimiento en beta de Microsoft Ads sin cambios de política o implementación. Monitorear si AI Max se generaliza, pero sin acciones inmediatas requeridas.
 - **Enlace:** https://ppc.land/microsoft-says-ai-max-testers-gained-8-more-conversions/
 
-### A8 Media lanza Signal para DOOH: targeting granular con datos propios
+### A8 Media lanza Signal para targeting DOOH con datos de movimiento
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Herramienta de DSP para publicidad out-of-home (DOOH) que combina datos propios, búsqueda y movimiento. Sin impacto directo en conversion tracking, GA4, Meta Pixel o GTM de clientes e-commerce estándar.
+- **Implicacion:** Herramienta nueva de targeting para DOOH (digital out-of-home) que combina datos first-party y movimiento. No afecta GTM, GA4, Meta Pixel o server-side si no trabajas con DOOH; monitorear si un cliente requiere integración de datos de movimiento.
 - **Enlace:** https://ppc.land/a8-media-builds-signal-to-pick-dooh-screens-instead-of-whole-city-buys/
 
-### GDPR explicado: regulación de datos personales en publicidad EU
+### Artículo explicativo sobre GDPR y publicidad europea
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Es un artículo educativo sobre fundamentos GDPR (bases legales, consentimiento, derechos). Útil como referencia general pero no anuncia cambios de plataforma ni nuevas políticas que requieran acción inmediata.
+- **Implicacion:** Contenido educativo sobre fundamentos GDPR (bases legales, consentimiento, derechos). Útil como referencia pero no constituye cambio de política o plataforma que requiera acción inmediata.
 - **Enlace:** https://ppc.land/gdpr/
-
-### Explicación general sobre plataformas de gestión de consentimiento
-
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Es un artículo educativo introductorio sobre CMPs. Útil para clientes que desconocen el ecosistema, pero no contiene cambios de política o novedades de plataforma que requieran acción inmediata.
-- **Enlace:** https://ppc.land/consent-management-platform/
