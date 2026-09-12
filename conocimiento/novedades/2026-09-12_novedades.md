@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 4
 relevancia_alta: 1
-tags: [GTM, server-side, consent/privacy, consent/privacy, otros, server-side]
+tags: [consent/privacy, otros, server-side]
 ---
 
 # Novedades del sector — 2026-09-12
@@ -18,29 +18,29 @@ tags: [GTM, server-side, consent/privacy, consent/privacy, otros, server-side]
 
 ### Google Tag Gateway: enrutamiento de datos por dominio propio
 
-- **Fuente:** PPC Land · **Area:** GTM, server-side, consent/privacy
-- **Implicacion:** Google Tag Gateway permite recuperar señal de medición perdida por restricciones de privacidad del navegador al rutear datos por el dominio propio antes de enviarlos a Google. Evalúa implementación en GTM/server-side para mercados DACH/UK/España donde privacy limits impactan GA4 y conversiones.
-- **Deja obsoleto:** Parcialmente supera enfoque tradicional de server-side tagging como única solución para conservar first-party data; no la reemplaza pero ofrece alternativa más directa con Google.
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Google Tag Gateway permite recuperar señal de conversión perdida por privacy limits del navegador enviando datos primero por el dominio del cliente antes de llegar a Google. Evalúa implementación en GTM/server-side para mejorar medición en GA4 y Meta en contexto de Consent Mode.
+- **Deja obsoleto:** Complementa (no reemplaza) server-side tracking tradicional; valida la estrategia de first-party data collection como alternativa a third-party cookies.
 - **Enlace:** https://ppc.land/google-tag-gateway/
 
 ## Relevancia media (2)
 
-### LG TV genera fingerprints masivos; cuestiona viabilidad de consent design actual
+### LG TV recopila fingerprints de 38 dispositivos; cuestiona validez del consentimiento
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Evidencia de recopilación de datos de dispositivos sin consentimiento explícito en escala industrial. Monitorea regulaciones DACH/UK sobre device fingerprinting y ajusta estrategias de consent si se endurece la normativa.
+- **Implicacion:** Evidencia de recopilación masiva de datos sin consentimiento explícito via dispositivos IoT. Monitorea evolución regulatoria en DACH/UK sobre validez de consent design en ecosistemas conectados; afecta estrategia de audience targeting si se restringe uso de datasets contaminados.
 - **Enlace:** https://ppc.land/one-lg-tv-mapped-38-devices-on-the-network-it-was-plugged-into/
 
-### ECAPI: estándar IAB para eventos server-to-server entre anunciantes y plataformas
+### ECAPI: estándar IAB para eventos servidor-a-servidor
 
 - **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Conocer ECAPI como alternativa/complemento a implementaciones propietarias (Meta Conversions API, GA4 server-side). Evaluar si adoptar este estándar IAB mejora portabilidad y reduce duplicación en tu stack de tracking multi-plataforma.
+- **Implicacion:** ECAPI es un estándar IAB Tech Lab para envío de eventos de conversión servidor-a-servidor entre advertiser y plataformas. Evalúa si es alternativa o complemento a tu estrategia actual de server-side tracking (Conversions API Meta, GA4 server-side) en DACH/ES/UK.
 - **Enlace:** https://ppc.land/ecapi/
 
 ## Relevancia baja (1)
 
-### Drako ofrece reportes de foot traffic gratis en DSPs
+### Drako ofrece reportes de tráfico de tienda gratis con pixel de conversión
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Novedad comercial de un proveedor específico de audiencias (Drako). No afecta implementación de tracking ni políticas de plataformas principales. Monitorear si tus clientes usan este DSP, pero no requiere acción inmediata.
+- **Implicacion:** Es una característica comercial de un proveedor de audiencias (Drako) sin cambios en plataformas o políticas de tracking. Sirve como referencia si trabajas con DSP, pero no altera flujos de implementación.
 - **Enlace:** https://ppc.land/drako-audience-buyers-get-free-foot-traffic-reports-often-sold-at-0-50-cpm/
