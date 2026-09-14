@@ -23,31 +23,31 @@ _Nada en esta categoria._
 ### Microm: alternativa cookie-free para targeting geográfico en Alemania
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Conocer opciones de targeting sin cookies en DACH es estratégico post-cookiepocalypse. Evaluar si Microm (PLZ-8 grid) es viable para clientes alemanes como alternativa a cookies de terceros en campañas display/retargeting.
+- **Implicacion:** Conocer opciones de targeting sin cookies en DACH es relevante para estrategias post-cookieless. Evaluar si Microm (PLZ-8 grid) encaja en campañas alemanas que requieren precisión geográfica sin dependencia de cookies de terceros.
 - **Enlace:** https://ppc.land/microm/
 
 ## Relevancia baja (4)
 
-### Explicación de redes de medios minoristas (RMN)
+### Retail Media Networks: cómo funcionan inventario y medición
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre cómo funcionan las RMN (Amazon Ads, Criteo, etc.) en retail. Relevante solo si trabajas con clientes minoristas que ejecutan campañas en estas plataformas; no es cambio de política ni implementación.
+- **Implicacion:** Contenido educativo sobre RMN (Amazon Ads, Walmart Connect, etc.). Relevante solo si trabajas con clientes retailers; no impacta implementación GTM/GA4/Pixel en DACH/España/UK.
 - **Enlace:** https://ppc.land/retail-media-network/
 
-### Polygon: geometría de targeting en ads, explica concepto básico
+### Polígonos en publicidad: conceptos de targeting y medición
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un artículo educativo sobre cómo los polígonos geográficos funcionan en plataformas de ads para delimitar zonas de targeting/medición. No implica cambios inmediatos en implementación de tracking.
+- **Implicacion:** Contenido educativo sobre geometría de targeting/measurement boundaries en plataformas de ads. No es un cambio de política o plataforma que obligue a actuar.
 - **Enlace:** https://ppc.land/polygon/
 
-### Azerion lanza datos geográficos sin cookies en Alemania
+### Azerion lanza datos geográficos sin cookies para Alemania
 
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Novedad de un proveedor específico (Azerion) sobre segmentación geográfica en Alemania. Relevante solo si usas Azerion; no impacta implementaciones de GTM, GA4 o Meta Pixel estándar.
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Solución de targeting geográfico alternativo a cookies de Azerion para el mercado alemán. Relevante solo si usas Hawk/Azerion; no afecta infraestructura GTM, GA4 o Meta Pixel estándar.
 - **Enlace:** https://ppc.land/azerion-gains-cookie-free-german-geo-data-covering-82-000-postcode-cells/
 
-### FouAnalytics publica perfiles semanales de especialistas en tracking
+### FouAnalytics lanza perfiles semanales de profesionales en LinkedIn
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un ranking de influencers en LinkedIn del sector de ads/tracking. Informativo pero no genera cambios en implementaciones de GTM, GA4, Meta Pixel o consent mode.
+- **Implicacion:** Es un ranking de influencers en marketing de anuncios basado en seguidores. No afecta implementaciones de tracking, GA4, GTM ni consent mode.
 - **Enlace:** https://ppc.land/fouanalytics-launches-weekly-profiles-of-practitioners-top-100-lists-miss/
