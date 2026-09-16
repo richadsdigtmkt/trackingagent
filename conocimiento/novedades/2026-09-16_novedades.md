@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 0
-tags: [GA4, consent/privacy, otros]
+tags: [GTM, consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-09-16
@@ -18,24 +18,24 @@ tags: [GA4, consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (2)
+## Relevancia media (1)
 
-### Guía GDPR 2026: checklist de cumplimiento actualizado
+### 78% de interacciones en contenido no se registran en web analytics
 
-- **Fuente:** ObservePoint Blog · **Area:** consent/privacy
-- **Implicacion:** Repasa tu estrategia de consent mode, server-side y GTM en DACH/UK/España frente a cambios regulatorios recientes. Útil para auditoría interna pero no indica cambios de plataforma específicos.
-- **Enlace:** https://www.observepoint.com/blog/guide-to-gdpr-compliance-2026/
-
-### 78% de shares de contenido interactivo no se capturan en analytics
-
-- **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** El contenido interactivo (quizzes, polls) genera engagement alto pero escapa a GA4/GTM si no hay tracking específico. Revisar si clientes con formatos interactivos tienen eventos customizados implementados para capturar shares y conversiones.
+- **Fuente:** PPC Land · **Area:** GTM
+- **Implicacion:** Los eventos de engagement en quizzes/polls no se capturan automáticamente en GA4 sin implementación explícita de eventos custom. Revisar GTM para trackear interacciones en formatos propios y validar que no hay sesiones fantasma.
 - **Enlace:** https://ppc.land/riddle-finds-78-of-interactive-content-shares-escape-web-analytics/
 
-## Relevancia baja (1)
+## Relevancia baja (2)
 
-### Podcast dominarán 48% del audio digital en 2030: proyección VAB
+### Guía GDPR 2026: checklist de compliance (ObservePoint)
+
+- **Fuente:** ObservePoint Blog · **Area:** consent/privacy
+- **Implicacion:** Contenido educativo sobre GDPR compliance. Revisar si introduce cambios normativos reales para 2026 que afecten implementación de tracking (ej. nuevas interpretaciones de consentimiento). Si es solo resumen de reglas vigentes, es referencia pero no acción inmediata.
+- **Enlace:** https://www.observepoint.com/blog/guide-to-gdpr-compliance-2026/
+
+### Podcasts alcanzarán 48% del gasto en audio digital US 2030
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Tendencia de mercado en US que afecta mix de canales para audiencias audio/video convergentes. No requiere cambios inmediatos en implementación de tracking; monitorear evolución de medición en plataformas streaming.
+- **Implicacion:** Es un pronóstico de tendencia de mercado sin cambios técnicos en tracking. Relevante solo si trabajas cuentas de audio/podcast, pero no afecta implementación de GTM, GA4, Meta Pixel o consent mode.
 - **Enlace:** https://ppc.land/podcasts-to-take-48-of-us-digital-audio-ad-spend-by-2030-vab-report-shows/
