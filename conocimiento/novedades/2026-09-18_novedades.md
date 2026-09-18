@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### MDM y control remoto de dispositivos: contexto empresarial
+### MDM y configuración remota de dispositivos: contexto empresarial
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Artículo educativo sobre MDM en contexto corporativo. No afecta directamente la implementación de tracking o consent mode a menos que trabajes con clientes enterprise que gestionen flotas de dispositivos.
+- **Implicacion:** Artículo educativo sobre gestión empresarial de dispositivos móviles. No es un cambio de plataforma ni política que afecte tracking: es contexto sobre cómo las organizaciones controlan dispositivos a nivel corporativo, relevante solo si trabajas con clientes enterprise con flota MDM.
 - **Enlace:** https://ppc.land/mobile-device-management/
