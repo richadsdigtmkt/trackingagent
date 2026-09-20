@@ -20,16 +20,16 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### PECR UK 2026: reforma en regulación de consentimiento device/e-marketing
+### PECR 2026: reforma UK en consent device y e-marketing
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Afecta tracking de cookies y consentimiento en UK (cliente post-Brexit). Revisar si tus implementaciones GA4/Meta Pixel en UK cumplen PECR y prepárate para cambios 2026 en consent mode y storage de datos.
+- **Implicacion:** Actualizar estrategia de consent mode y cookie banner para UK post-2026. Revisar si la reforma PECR afecta tu stack actual (GTM/consent tools) antes de que entre en vigor.
 - **Enlace:** https://ppc.land/eprivacy-regulations-pecr/
 
 ## Relevancia baja (1)
 
-### Encuesta: inversores valoran marca pero aprueban recortes de marketing
+### Inversores prefieren marca pero 52% apoyan recortes de marketing
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Artículo sobre percepción empresarial y contabilidad de gastos de marketing (IAS 38), sin cambios en plataformas de tracking ni políticas técnicas que afecten implementación.
+- **Implicacion:** Artículo sobre tendencias de inversión y contabilidad de gasto en marketing (IAS 38). No afecta implementación de tracking, GTM, GA4 ni consent mode.
 - **Enlace:** https://ppc.land/investors-rank-brand-first-but-52-back-marketing-cuts-whittaker-says/
