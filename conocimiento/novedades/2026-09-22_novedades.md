@@ -18,24 +18,26 @@ tags: [GA4, consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (2)
+## Relevancia media (3)
 
-### GA4 Include filter: bloquea dominios no aprobados, excepto MP
+### GA4: nuevo filtro de dominios aprobados en modo Include
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Los admins de GA4 pueden filtrar eventos sin hostname válido, pero el Measurement Protocol se exime. Revisar si tus implementaciones server-side (MP) o Data Manager API se ven afectadas; el artículo no aclara el comportamiento con Data Manager.
+- **Implicacion:** GA4 ahora puede filtrar eventos sin hostname o de dominios no autorizados. Revisa si afecta tu recolección de datos server-side o Measurement Protocol; documenta dominios legítimos en propiedades si usas este filtro.
 - **Enlace:** https://ppc.land/google-analytics-filter-blocks-data-from-domains-not-on-an-approved-list/
 
-### Google multado €403M por tracking de ubicación (RGPD)
-
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Refuerza obligación de consentimiento claro y granular en ubicación. Revisa que tus implementaciones de consent mode y Location History en Android solicitan aceptación explícita sin dark patterns (rechazos múltiples).
-- **Enlace:** https://ppc.land/google-faces-eur403m-fine-over-location-tracking-flagged-in-2018/
-
-## Relevancia baja (1)
-
-### PubMatic lanza 900 segmentos BCN desde perfiles alemanes por IA
+### PubMatic lanza 900 segmentos BCN IA en Alemania (80M perfiles)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Novedad de inventario/audiencia en programmatic (PubMatic), no afecta implementación de tracking GTM/GA4/Meta. Relevante solo si gestionas campañas programmatic en DACH con audiencias de contexto.
+- **Implicacion:** Nuevo inventario programático de audiencias consentidas en DACH via PubMatic. Relevante si compras display/video, pero no cambia implementación de GTM, GA4 o pixel; revisar si afecta estrategia de DSPs y pricing.
 - **Enlace:** https://ppc.land/advertisers-gain-900-bcn-audience-segments-bookable-by-ai-prompt/
+
+### Google multado con €403M por tracking de ubicación poco transparente
+
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Refuerza que los consentimientos deben ser genuinamente libres y no forzar rechazos repetidos. Revisa si tus implementaciones de consent en Android/Google Services cumplen con esta exigencia de claridad en Location History.
+- **Enlace:** https://ppc.land/google-faces-eur403m-fine-over-location-tracking-flagged-in-2018/
+
+## Relevancia baja (0)
+
+_Nada en esta categoria._
