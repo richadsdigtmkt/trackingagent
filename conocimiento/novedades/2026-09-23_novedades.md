@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### ¿Qué es una etiqueta web? Definición básica
+### Qué es una etiqueta web: definición básica
 
 - **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Contenido educativo/introductorio sobre conceptos de tag management. No requiere acción inmediata si ya dominas tag governance.
+- **Implicacion:** Contenido educativo introductorio sobre conceptos fundamentales de tags. Útil solo si necesitas materialguía para clientes sin experiencia técnica.
 - **Enlace:** https://www.observepoint.com/blog/what-is-a-website-tag/
