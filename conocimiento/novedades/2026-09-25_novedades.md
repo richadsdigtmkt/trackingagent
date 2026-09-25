@@ -24,14 +24,14 @@ _Nada en esta categoria._
 
 ## Relevancia baja (2)
 
-### WCAG explicado: guía introductoria a estándares de accesibilidad
+### ¿Qué es WCAG? Explicación en lenguaje sencillo
 
 - **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Contenido educativo sobre estándares de accesibilidad web (WCAG). No es un cambio de plataforma ni política que obligue a actuar inmediatamente; útil para contexto pero no requiere decisión operativa.
+- **Implicacion:** Contenido educativo sobre accesibilidad web (WCAG). Útil para contexto, pero no impacta implementación de tracking ni consent compliance.
 - **Enlace:** https://www.observepoint.com/blog/what-is-wcag/
 
-### Comparativa de TMS 2026: opinión de vendor sobre mejores plataformas
+### Comparativa de TMS 2026: análisis de opciones de mercado
 
 - **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Contenido educativo sobre opciones de TMS (GTM, Tealium, Adobe Launch, etc.). Útil para auditoría de stack, pero no implica cambios en implementaciones actuales ni nuevas políticas de plataformas.
+- **Implicacion:** Contenido educativo sobre opciones de TMS disponibles. Revisar solo si evalúas cambio de plataforma o necesitas benchmark de características.
 - **Enlace:** https://www.observepoint.com/blog/best-tag-management-systems/
