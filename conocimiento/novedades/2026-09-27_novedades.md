@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 0
-tags: [Meta Pixel, consent/privacy, otros]
+tags: [Meta Pixel, consent/privacy]
 ---
 
 # Novedades del sector — 2026-09-27
@@ -20,22 +20,22 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Tests de Facebook muestran discrepancias 3x en medición estándar de anuncios
+### Meta admite discrepancias 3x en medición de lift con ML vs. RCT
 
 - **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Los experimentos internos de Meta revelan que las estimaciones de lift de ML pueden estar 83% por encima de mediciones randomizadas (29%). Requiere revisión crítica de métricas de lift en Meta Ads y auditoría de confiabilidad en modelos de atribución para clientes DACH/UK.
+- **Implicacion:** Los estimados de lift de Meta (ML) pueden ser 2.8x más altos que mediciones rigurosas (RCT). Revisa dashboards de Meta Ads Manager y ajusta expectativas de ROI en cuentas que confían solo en métricas nativas; documenta este gap con el cliente.
 - **Enlace:** https://ppc.land/facebooks-own-tests-show-standard-ad-measurement-often-off-by-3x-dhir-says/
 
 ## Relevancia baja (2)
 
-### Qué es un consent decree: definición legal básica
+### Decreto de consentimiento: definición legal general
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Contenido educativo sobre terminología legal (órdenes judiciales negociadas). No es cambio de plataforma ni política que afecte implementación de tracking o consent mode.
+- **Implicacion:** Es una explicación de terminología legal general (consent decree como orden judicial), no un cambio de política de plataforma que afecte tracking. Útil como referencia educativa, pero no requiere acción inmediata.
 - **Enlace:** https://ppc.land/consent-decree/
 
-### Alabama limita TikTok a 2h/día para menores; decreto de cumplimiento
+### Alabama regula uso de TikTok en menores (120 min/día)
 
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Medida regulatoria estatal de EE.UU. que afecta solo a TikTok y menores en Alabama. No impacta directamente en GTM, GA4, Meta Pixel o server-side tracking en mercados DACH/España/UK.
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Regulación estatal US sin impacto directo en DACH/España/UK. Monitorea si genera precedente en EU sobre limites de uso/age-gating que afecte tracking de menores.
 - **Enlace:** https://ppc.land/alabama-caps-tiktok-teens-at-two-hours-a-day-in-a-116-2m-consent-decree/
