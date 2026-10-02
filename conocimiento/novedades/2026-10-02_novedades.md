@@ -24,14 +24,14 @@ _Nada en esta categoria._
 
 ## Relevancia baja (2)
 
-### Cómo funcionan conjuntamente análisis web y TMS
+### Cómo Analytics y TMS trabajan juntos: guía conceptual
 
 - **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Contenido educativo sobre la integración básica entre TMS (GTM) y analytics. No hay cambios de política o plataforma que requieran acción inmediata.
+- **Implicacion:** Contenido educativo sobre la relación entre sistemas de análisis y TMS. Útil para onboarding pero no contiene cambios de plataforma ni políticas nuevas que requieran acción inmediata.
 - **Enlace:** https://www.observepoint.com/blog/how-web-analytics-and-tag-management-systems-work-together/
 
-### Desestiman demanda antimonopolio contra Google AI Overviews
+### Desestimada demanda antimonopolio sobre Google AI Overviews
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Decisión judicial sin impacto directo en tracking/GTM. La publicación de estándar SPUR v1.0 podría ser relevante si afecta medición de tráfico desde AI Overviews, pero requiere verificación.
+- **Implicacion:** Sentencia judicial sobre práctica de Google AI Overviews; monitorear si genera cambios en visibilidad de anuncios o tráfico, pero sin impacto inmediato en implementación de tracking.
 - **Enlace:** https://ppc.land/judge-mehta-dismisses-penskes-google-ai-overviews-antitrust-suit/
