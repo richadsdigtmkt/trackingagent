@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 0
-tags: [otros]
+tags: [consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-10-03
@@ -24,20 +24,20 @@ _Nada en esta categoria._
 
 ## Relevancia baja (3)
 
-### 43% de compradores retail media subutilizan in-store: estudio IAB
+### El 43% de compradores retail media subutilizan medios en tienda (IAB)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un insight de mercado sobre tendencias de gasto en retail media, pero no implica cambios en implementación de tracking, GTM, GA4 ni consent. Solo relevante si trabajas cuentas retail media con enfoque offline/in-store.
+- **Implicacion:** Estudio de mercado sobre tendencias de retail media en USA. No es un cambio de plataforma o política que afecte implementaciones de tracking. Informativo para estrategia de clientes retail, pero no obliga cambios técnicos.
 - **Enlace:** https://ppc.land/43-of-retail-media-buyers-say-they-underuse-in-store-media-iab-finds/
 
-### Japón: reglas de divulgación para entrenamiento de IA sin consentimiento
+### Japón: regulación sobre divulgación de datos para entrenamiento IA
 
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio regulatorio en Japón que afecta a desarrolladores de IA, no a implementación de tracking. Monitorear si evoluciona hacia normativas DACH/UK similares, pero sin impacto inmediato en GTM, GA4 o Pixel.
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Cambio regulatorio en Japón que no afecta mercados DACH, España ni UK. Monitorear si la UE adopta enfoque similar en futuras regulaciones de IA.
 - **Enlace:** https://ppc.land/ai-developers-in-japan-face-web-disclosures-to-train-on-data-without-consent/
 
-### iSpot amplía tracking en canales Hallmark (linear/streaming/FAST)
+### iSpot tracking en canales streaming de Hallmark Media
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Hallmark Media integra iSpot para deduplicación de reach en TV lineal y streaming. Relevante solo si trabajas con clientes en medios de TV/CTV; no afecta GTM, GA4, Meta Pixel ni server-side tracking en web.
+- **Implicacion:** Hallmark Media integra tracking de iSpot para medir reach y conversiones en streaming/FAST. No afecta directamente implementaciones GTM/GA4/Meta Pixel en sitios web; es una solución de medición de TV streaming aislada.
 - **Enlace:** https://ppc.land/hallmark-medias-streaming-ads-gain-ispot-tracking-to-sales-and-site-visits/
