@@ -23,19 +23,19 @@ _Nada en esta categoria._
 ### Solo 9% de marcas dominan medición unificada; 74% busca ayuda externa
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Refleja fragmentación real en measurement que afecta la estrategia de tracking multi-plataforma (GA4, Meta, server-side). Útil para validar necesidad de soluciones unificadas con clientes, pero es research de mercado, no cambio de plataforma que obligue a actuar inmediato.
+- **Implicacion:** El estudio refleja una brecha operativa real en el mercado: la mayoría usa reporting nativo (93%) pero reconoce insuficiencia. Útil para posicionar servicios de tracking unificado (server-side, GA4 consolidado) pero no es cambio de plataforma.
 - **Enlace:** https://ppc.land/only-9-of-brands-say-they-excel-at-unified-measurement-winterberry-finds/
 
 ## Relevancia baja (2)
 
-### Google destaca features de Search para preparar café en casa
+### Google destaca tendencias de búsqueda en café; sin cambios en ads/tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre tendencias de búsqueda en café casero. No afecta implementación de tracking ni políticas de medición.
+- **Implicacion:** Artículo sobre tendencias de consumo en búsquedas de café. No implica cambios operacionales en GTM, GA4, tracking o consent que requieran acción inmediata.
 - **Enlace:** https://ppc.land/google-points-home-baristas-to-5-search-features-for-coffee-making/
 
-### Nielsen prepara medición de contenido 2027 con datos de streaming
+### Nielsen lanza medición de contenido 2027 basada en datos de streaming
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio futuro en metodología de Nielsen para medición cross-screen. No requiere acción inmediata; monitorear evolución si trabajas con Nielsen en brand awareness o attribution.
+- **Implicacion:** Cambio futuro en metodología de Nielsen para medir alcance cross-screen. No afecta implementación actual de tracking (GTM, GA4, Meta Pixel); monitorear si tus clientes usan Nielsen como fuente de verdad.
 - **Enlace:** https://ppc.land/nielsen-plans-2027-content-measurement-built-on-publisher-streaming-data/
