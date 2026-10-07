@@ -24,20 +24,20 @@ _Nada en esta categoria._
 
 ## Relevancia baja (3)
 
-### Vibe integra conversiones auto-reportadas de Fairing en TV ads
+### Vibe integra conversiones reportadas por compradores desde Fairing
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Herramienta de atribución post-compra para TV ads sin ingeniería. No es un cambio de política o plataforma que afecte GTM, GA4, Meta o server-side tracking.
+- **Implicacion:** Herramienta de terceros (Fairing) que alimenta datos de recall de compra a TV ads. No es un cambio de plataforma principal (GA4, GTM, Pixel) ni afecta infraestructura de tracking establecida.
 - **Enlace:** https://ppc.land/vibe-gains-buyer-reported-conversions-from-fairings-post-purchase-survey/
 
-### Amazon Ads accede a inventario Sky Streaming en UK e Irlanda
+### Amazon Ads accede a inventario Sky streaming en UK e Irlanda
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Ampliación de canales publicitarios en streaming para campañas UK/IR, pero sin impacto directo en tracking o consent. Relevante solo si el consultor gestiona campañas programáticas en estos mercados.
+- **Implicacion:** Expansión de Amazon Ads a nuevo canal (TV streaming). Solo relevante si gestionas campañas programáticas en UK/Irlanda con Amazon DSP; no afecta tracking GTM, GA4, Meta Pixel ni consent mode.
 - **Enlace:** https://ppc.land/amazon-ads-gains-access-to-sky-streaming-inventory-in-uk-and-ireland/
 
-### Walmart DSP integra anuncios de Spotify con tracking de resultados
+### Walmart DSP integra anuncios Spotify con tracking de conversión retail
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia sobre expansión de capacidades de Walmart DSP (plataforma propia de demanda), no sobre cambios en plataformas de tracking (GTM, GA4, Meta Pixel). Monitorear si Walmart DSP lanza APIs de tracking que afecten implementaciones server-side, pero por ahora es ruido del mercado de DSPs.
+- **Implicacion:** Novedad de DSP retail (Walmart) + inventory Spotify, no cambio en plataformas de tracking GA4/GTM/Meta. Relevante solo si cliente es CPG/retail que usa Walmart DSP; verificar auditabilidad de claims de reach.
 - **Enlace:** https://ppc.land/walmart-dsp-gains-spotify-ads-with-outcome-tracking-across-4-600-stores/
