@@ -18,24 +18,26 @@ tags: [consent/privacy, otros, server-side]
 
 _Nada en esta categoria._
 
-## Relevancia media (1)
+## Relevancia media (0)
 
-### BigQuery: almacén de datos serverless para ads y analytics
+_Nada en esta categoria._
 
-- **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Útil conocer BigQuery como destino de datos GA4 y server-side tracking para análisis avanzado y modelado de conversiones. Evalúa si tus clientes necesitan exportar datos más allá de GA4 estándar.
-- **Enlace:** https://ppc.land/bigquery/
+## Relevancia baja (3)
 
-## Relevancia baja (2)
-
-### Explicación conceptual de datos de primera parte
+### Explicación conceptual: datos first-party en publicidad
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Es un artículo educativo sobre qué es first-party data. Útil para clientes que necesiten entender el concepto, pero no describe cambios de plataforma ni nuevas políticas que afecten la implementación actual.
+- **Implicacion:** Contenido educativo sobre fundamentos de first-party data. No requiere acción inmediata a menos que el equipo necesite refrescar conocimientos sobre estrategia de recolección propia vs. third-party.
 - **Enlace:** https://ppc.land/first-party-data/
 
-### VIZIO reporta crecimiento de audiencia en servicio gratuito
+### VIZIO reporta crecimiento de viewing hours en su servicio free
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia sobre métricas de audiencia de una plataforma de streaming. No implica cambios en tracking, pixelación o compliance que afecten implementaciones actuales.
+- **Implicacion:** Noticia de negocio sobre expansión de inventario publicitario en plataforma VIZIO. Sin cambios en políticas de tracking, medición o consent que afecten implementaciones actuales.
 - **Enlace:** https://ppc.land/vizio-says-viewing-hours-on-its-free-service-rose-58-in-a-year/
+
+### BigQuery: almacén de datos serverless de Google para analytics
+
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Contenido educativo sobre la arquitectura de BigQuery. Útil para contexto si el cliente usa GA4 + BigQuery, pero no representa un cambio de política o funcionalidad que requiera acción inmediata.
+- **Enlace:** https://ppc.land/bigquery/
