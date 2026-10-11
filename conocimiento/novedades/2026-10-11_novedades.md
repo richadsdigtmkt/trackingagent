@@ -4,7 +4,7 @@ fecha: 2026-10-11
 fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 2
-relevancia_alta: 0
+relevancia_alta: 1
 tags: [GA4, server-side]
 ---
 
@@ -14,22 +14,23 @@ tags: [GA4, server-side]
 - **Leidas sin novedades (OK, sin publicaciones en la ventana):** Simo Ahava, David Vallejo (Thyngster), ObservePoint Blog, Google Analytics Blog
 - **Caidas / no leidas (revisar URL si persiste):** ninguna
 
-## Relevancia alta (0)
+## Relevancia alta (1)
+
+### IAB impulsa servidor de confianza tras bloqueo de Safari a The Trade Desk
+
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Apple sigue bloqueando soluciones de tracking de terceros; IAB propone Rust edge proxy como alternativa server-side. Evalúa si migraciones a server-side auctions en cookieless son viables antes de adoptar herramientas sin releases estables.
+- **Deja obsoleto:** Las soluciones de tracking client-side vía third-party cookies en Safari quedan progresivamente inviables; acelera transición a server-side tracking y first-party data.
+- **Enlace:** https://ppc.land/iab-tech-lab-pushes-trusted-server-after-safari-blocks-the-trade-desk/
+
+## Relevancia media (0)
 
 _Nada en esta categoria._
 
-## Relevancia media (1)
-
-### IAB impulsa Trusted Server tras bloqueo de Safari a The Trade Desk
-
-- **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Monitorea el Trusted Server (edge proxy Rust) como alternativa server-side para subastas privadas que eviten restricciones de Apple. Evalúa si aplica a tu stack de tracking DACH/UK, pero la madurez técnica aún es cuestionable (zero releases en GitHub).
-- **Enlace:** https://ppc.land/iab-tech-lab-pushes-trusted-server-after-safari-blocks-the-trade-desk/
-
 ## Relevancia baja (1)
 
-### Google Analytics API: gestión de roles de grupo sin método de eliminación
+### GA4 API: nuevos métodos para gestionar grupos de usuarios
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Nueva capacidad de asignar roles a grupos vía API (org, user, billing admin), pero API está incompleta (falta método para revocar roles). Solo relevante si automatizas gestión de permisos en Analytics; monitoriza evolución de esta API alpha.
+- **Implicacion:** Cambio administrativo en GA4 que permite asignar roles a grupos vía API (alpha). Relevante solo si tu consultoría gestiona múltiples cuentas GA4 y automatiza gobernanza; sin impacto directo en tracking, consent o implementación de píxeles.
 - **Enlace:** https://ppc.land/google-opens-analytics-user-groups-to-api-control-with-14-new-methods/
