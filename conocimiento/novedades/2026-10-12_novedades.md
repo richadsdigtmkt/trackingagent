@@ -4,7 +4,7 @@ fecha: 2026-10-12
 fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 7
-relevancia_alta: 2
+relevancia_alta: 1
 tags: [GA4, consent/privacy, otros]
 ---
 
@@ -14,53 +14,52 @@ tags: [GA4, consent/privacy, otros]
 - **Leidas sin novedades (OK, sin publicaciones en la ventana):** Simo Ahava, David Vallejo (Thyngster), ObservePoint Blog, Google Analytics Blog
 - **Caidas / no leidas (revisar URL si persiste):** ninguna
 
-## Relevancia alta (2)
+## Relevancia alta (1)
 
-### Digital Omnibus (nov 2025): reforma GDPR, cookies y privacidad
+### Digital Omnibus: reforma GDPR/ePrivacy Nov 2025 reduce costes compliance
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Cambio regulatorio en UE que afecta directamente consent mode, cookie banners y tracking. Revisar impacto en políticas de consentimiento y re-validar implementaciones de GA4/Meta Pixel en DACH/España/UK antes de que entre en vigor.
-- **Deja obsoleto:** Posibles cambios en estrategias de consent mode v2 y gestión de cookie walls según nueva interpretación de ePrivacy.
+- **Implicacion:** La Comisión Europea modifica GDPR, normas de cookies ePrivacy, Data Act e IA en nov 2025 para simplificar compliance. Revisar inmediatamente cómo afecta a consent mode, recolección de datos y gestión de cookies en mercados DACH/ES/UK.
+- **Deja obsoleto:** Posibles cambios en implementación de consentimiento y cookie walls; esperar detalles oficiales antes de rediseñar estrategia actual.
 - **Enlace:** https://ppc.land/digital-omnibus/
+
+## Relevancia media (2)
 
 ### Noruega multa a Xandr por compartir datos sensibles sin consentimiento
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Clarifica responsabilidad legal de intermediarios de ads (exchanges) en cadena de datos sensibles, incluso si la app declara consentimiento. Revisa tus integraciones de exchanges y validates que no fluyan datos sensibles sin consentimiento explícito directo.
-- **Deja obsoleto:** Reliance en consentimiento de terceros (apps) sin validación independiente de exchanges es insuficiente legalmente en mercados regulados (DACH, UK, España).
+- **Implicacion:** Refuerza que los intermediarios de ads (exchanges, DSPs) no pueden asumir que el consentimiento del app cubre compartición de datos con terceros. Revisar flujos de consentimiento en implementaciones donde datos sensibles pasan por ad-tech intermediaries.
 - **Enlace:** https://ppc.land/norway-fines-microsofts-xandr-nok-92m-over-grindr-users-sensitive-data/
 
-## Relevancia media (1)
-
-### Key Event: reemplazo oficial de 'conversión' en GA4
+### Key Events en GA4: cambio de nomenclatura de conversiones (marzo 2024)
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Google formalizó en marzo 2024 que 'Key Event' es el nuevo término para marcar eventos críticos en GA4. Revisa si tu nomenclatura en implementaciones y reportes usa este término y documenta el cambio con clientes para evitar confusión.
-- **Deja obsoleto:** El término 'conversión' como categoría de evento en GA4 queda obsoleto; debe reemplazarse por 'Key Event'.
+- **Implicacion:** GA4 reemplazó 'conversión' por 'key event' en marzo 2024. Necesitas revisar que tus eventos críticos estén marcados como key events en GA4 para mantener la priorización correcta en reportes y modelos de atribución.
+- **Deja obsoleto:** La configuración de 'conversiones' como tal en GA4 (el término anterior es obsoleto; ahora se usa 'key event')
 - **Enlace:** https://ppc.land/key-event/
 
 ## Relevancia baja (4)
 
-### Zeta Global adquiere Senso: consolidación interna sin cambio de tracking
+### Zeta Global adquiere Senso: consolidación de tracking en IA
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Operación corporativa de Zeta Global sobre su proveedor tecnológico. No afecta implementaciones de GTM, GA4, Meta Pixel o consent mode en clientes DACH/España/UK.
+- **Implicacion:** Zeta refuerza su stack de monitoreo de marca en buscadores con IA (ChatGPT, Gemini, Claude). Sin impacto inmediato en implementaciones GTM/GA4/Pixel; relevante solo si usas herramientas Zeta para tracking en estos canales.
 - **Enlace:** https://ppc.land/zeta-global-to-buy-senso-the-startup-behind-its-ai-search-product/
 
-### Conversion lift: medición de incremento causal en conversiones
+### Conversion Lift: cómo miden plataformas el incremento real
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre metodología de lift testing (grupos de control vs. expuestos). Útil para entender limitaciones de platforms, pero no representa cambio de política o implementación que afecte tus flujos actuales de tracking.
+- **Implicacion:** Artículo educativo sobre metodología de lift studies (grupos control vs. expuestos). Útil para entender limitaciones de medición, pero no implica cambios en implementación de tracking.
 - **Enlace:** https://ppc.land/conversion-lift/
 
-### Search Terms Report: funcionamiento y limitaciones en Google Ads
+### Search Terms Report: Explicación de reportes de queries en Google Ads
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre el Search Terms Report de Google Ads (queries que disparan anuncios, match types, clicks, cost, conversiones). Útil como referencia pero no implica cambios operacionales en tracking.
+- **Implicacion:** Contenido educativo sobre cómo funciona el reporte de términos de búsqueda en Google Ads. Útil como referencia pero no implica cambios en implementación de tracking.
 - **Enlace:** https://ppc.land/search-terms-report/
 
-### Persons-per-household: métrica de medición de TV/CTV
+### Persons-per-household: métrica de census para TV/CTV
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Concepto educativo sobre cómo se convierte hogares en audiencias en medición de TV/CTV. No requiere acción inmediata en tracking web o mobile.
+- **Implicacion:** Concepto educativo sobre cómo la industria TV/CTV convierte datos de hogares en audiencias. No impacta tracking web, GA4, consent mode ni pixel implementation.
 - **Enlace:** https://ppc.land/persons-per-household/
