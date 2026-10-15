@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Explicación conceptual: qué es un walled garden en publicidad
+### Explicación de concepto: Walled Garden en plataformas de ads
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre la naturaleza cerrada de plataformas como Google, Meta y Amazon. No requiere acción inmediata; útil para contexto estratégico en conversaciones con clientes sobre limitaciones de cross-platform tracking.
+- **Implicacion:** Contenido educativo sobre arquitectura de plataformas publicitarias (Google, Meta, Amazon). No requiere acción inmediata; útil como referencia conceptual para comunicar limitaciones de tracking cross-platform a clientes.
 - **Enlace:** https://ppc.land/walled-garden/
