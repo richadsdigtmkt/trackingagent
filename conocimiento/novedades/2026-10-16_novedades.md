@@ -18,20 +18,18 @@ tags: [consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (0)
+## Relevancia media (1)
 
-_Nada en esta categoria._
-
-## Relevancia baja (2)
-
-### Data Act limita acceso a datos IoT de terceros, estudio académico
+### EU Data Act limita acceso de terceros a datos IoT; afecta recopilación de datos de dispositivos
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Análisis teórico sobre restricciones del EU Data Act en acceso a datos IoT. No impacta implementación de tracking (GTM, GA4, pixels) ni consent mode en mercados DACH/ES/UK aún.
+- **Implicacion:** La EU Data Act restringe cómo terceros (incluidas plataformas de tracking) pueden acceder a datos de dispositivos IoT; requiere negociación con fabricantes. Monitorear implicaciones para consent mode y recopilación de datos en ecosistemas conectados, especialmente en DACH y EU.
 - **Enlace:** https://ppc.land/data-act-blocks-rivals-from-using-device-data-for-rival-products-study-finds/
+
+## Relevancia baja (1)
 
 ### Target CPA: explicación de estrategia de pujas en Google Ads
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un tutorial sobre la estrategia de pujas Target CPA de Google Ads. No hay cambios de plataforma ni política que afecten implementación de tracking o consent. Lectura opcional si necesitas refrescar conceptos de bidding.
+- **Implicacion:** Es un tutorial educativo sobre Target CPA, una estrategia de pujas existente en Google Ads. No introduce cambios de plataforma ni nuevas políticas que afecten la implementación de tracking.
 - **Enlace:** https://ppc.land/target-cpa/
