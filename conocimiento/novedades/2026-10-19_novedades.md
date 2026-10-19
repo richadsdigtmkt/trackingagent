@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 3
 relevancia_alta: 1
-tags: [consent/privacy, otros]
+tags: [otros, server-side]
 ---
 
 # Novedades del sector — 2026-10-19
@@ -16,11 +16,11 @@ tags: [consent/privacy, otros]
 
 ## Relevancia alta (1)
 
-### Google Ads deja de exigir hash SHA-256 en Customer Match (16 nov)
+### Google Ads Data Manager: fin de requisito SHA-256 hashing (16 nov)
 
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Google cambia de SHA-256 a encriptación en Customer Match y enhanced conversions. Revisar si tus flujos de upload de datos cliente todavía hashean manualmente; posiblemente ya no sea necesario y Google maneje la encriptación.
-- **Deja obsoleto:** Práctica de pre-hashear datos con SHA-256 antes de enviar a Google Ads Customer Match
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Google cambia de SHA-256 hashing a encriptación para Customer Match y enhanced conversions. Revisar pipelines de datos y archivos pre-hasheados; confirmar con Google si siguen siendo válidos post-16 nov.
+- **Deja obsoleto:** SHA-256 hashing como método obligatorio para preparar datos en Customer Match/enhanced conversions
 - **Enlace:** https://ppc.land/google-ads-data-manager-stops-requiring-hashed-customer-data-november-16/
 
 ## Relevancia media (0)
@@ -29,14 +29,14 @@ _Nada en esta categoria._
 
 ## Relevancia baja (2)
 
-### Consolidación de streamers en TV: M&A y datos first-party
+### Consolidación de streamers globales: impacto indirecto en ecosistema de datos
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contexto empresarial sobre reestructuración de medios y estrategia de datos. No impacta directamente implementación de tracking ni políticas de consent/privacidad.
+- **Implicacion:** Noticia de M&A en TV/streaming que contextualiza cambios en disponibilidad de inventario y datos de publishers. No hay cambio inmediato de plataforma o política de tracking, pero monitorear si afecta acceso a datos de audiencia en clientes que trabajan con estos actores.
 - **Enlace:** https://ppc.land/global-streamers-push-tv-into-m-a-from-sky-itv-to-rtl-rakuten-tv-exec-says/
 
-### Meta y Apple colaboran en modelo IA local; sin impacto inmediato en tracking
+### Meta y Apple colaboran en modelo de IA local; sin implicación inmediata en tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es una noticia de infraestructura IA sin cambios directos en políticas de tracking o consent. Monitorear si Apple Intelligence integra restricciones nuevas de datos.
+- **Implicacion:** Es un anuncio tecnológico sobre capacidades de IA en Mac, no un cambio de política de tracking o consent. Monitorear si evoluciona hacia integración de Meta Pixel o datos en Apple Intelligence, pero hoy no afecta implementaciones.
 - **Enlace:** https://ppc.land/apple-and-meta-team-up-to-run-metas-816b-muse-model-on-two-mac-studios/
