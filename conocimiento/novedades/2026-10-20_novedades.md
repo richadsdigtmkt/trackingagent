@@ -16,26 +16,26 @@ tags: [consent/privacy, otros]
 
 ## Relevancia alta (1)
 
-### Safari 27 bloquea conversión de emails a IDs de tracking en todos sus OS
+### Safari 27 bloquea firmas de identidad que convierten emails en IDs de tracking
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Apple cierra completamente el uso de emails como puente para tracking cross-site en Safari (iOS, macOS, iPadOS, visionOS). Afecta directamente estrategias de identity resolution y audience matching en Meta, Google y plataformas de ads. Revisar inmediatamente dependencias de email-based tracking y preparar fallback a first-party data o consent mode mejorado.
-- **Deja obsoleto:** Email-based identity providers (tipo Liveramp, ID5) como solución universal de tracking en Safari quedan obsoletos; requiere migración acelerada a consent mode v2 y server-side measurement.
+- **Implicacion:** Safari/WebKit ahora bloquea a nivel de dominio cualquier intento de convertir direcciones de email en identificadores de seguimiento (sin excepciones). Afecta directamente a estrategias de identity resolution y first-party data activation en iOS/macOS; revisar urgentemente si dependes de email-based matching o proveedores de identidad que usan este método.
+- **Deja obsoleto:** Quedan obsoletas las implementaciones de email-to-ID matching que se ejecutaban en Safari y esperaban contornear la restricción sin técnicas alternativas (server-side matching o hashed email consolidation son ahora obligatorios).
 - **Enlace:** https://ppc.land/safari-27-blocks-identity-firms-that-turn-email-addresses-into-tracking-ids/
 
 ## Relevancia media (2)
 
-### Safari 27 bloquea conversión email→ID tracking; impacto en identity resolution
+### Safari 27 bloquea conversión de emails a IDs de tracking
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Safari 27 refuerza bloqueos a identity firms que convierten emails en IDs de seguimiento. Afecta estrategias de first-party data y cookieless tracking en Safari (especialmente UK/DACH con usuarios sensibles a privacidad). Revisar dependencias de email-to-ID matching y considerar alternativas server-side o consent-based.
-- **Deja obsoleto:** Email-to-ID matching sin consentimiento explícito en Safari pierde viabilidad; refuerza urgencia de server-side tracking y Consent Mode v2 como única ruta confiable.
+- **Implicacion:** Apple refuerza restricciones de tracking en Safari 27 contra identity solutions (email-to-ID). Revisar si usas estas firmas en flujos de audience matching o retargeting; considera alternativas server-side o consent-based.
+- **Deja obsoleto:** Las soluciones de email-to-ID tracking sin consentimiento explícito pierden efectividad en Safari; algunos flujos de identity resolution basados en WebKit quedan limitados.
 - **Enlace:** https://ppc.land/safari-27-blocks-identity-firms-as-search-falls-to-12-of-publisher-traffic/
 
-### 42% de marketers pierden >20% presupuesto por silos de datos en programmatic
+### Silos de datos desperdician >20% presupuesto programmatic según StackAdapt
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Refleja fragmentación en tracking multiplataforma (GTM, GA4, Meta Pixel desconectados). Valida la necesidad de server-side tracking unificado para el DACH/UK, pero es diagnóstico sectorial sin cambios de plataforma que obliguen a actuar inmediatamente.
+- **Implicacion:** Indica fragmentación en medición multi-canal y tracking (solo 7% tiene medición unificada). Relevante para auditar si el setup de GTM/GA4/Pixel está integrado o si hay pérdida de datos entre plataformas que afecte ROI.
 - **Enlace:** https://ppc.land/stackadapt-survey-42-say-silos-waste-over-a-fifth-of-programmatic-budget/
 
 ## Relevancia baja (0)
