@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 9
 relevancia_alta: 0
-tags: [Meta Pixel, otros, server-side]
+tags: [Meta Pixel, QA, consent/privacy, otros]
 ---
 
 # Novedades del sector — 2026-10-22
@@ -20,58 +20,58 @@ _Nada en esta categoria._
 
 ## Relevancia media (4)
 
-### IAB abre consulta sobre resolución de conflictos en medición de anuncios
+### IAB abre consulta sobre guía de conflictos en medición de ads (cierre 4 nov)
 
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Guía próxima sobre MMM, incrementalidad y atribución cuando divergen. Seguir publicación final para alineación con estándares de industria, pero es normativo, no normativo todavía.
+- **Fuente:** PPC Land · **Area:** QA
+- **Implicacion:** La IAB está elaborando directrices sobre cómo resolver desacuerdos entre MMM, incrementality tests y attribution. Monitorea el documento final cuando se publique (probablemente nov-dic) para evaluar si introduce nuevos estándares que afecten tu stack de tracking.
 - **Enlace:** https://ppc.land/iab-gives-marketers-15-days-to-comment-on-its-ad-measurement-conflict-guide/
 
-### DSP measurement: ventajas y limitaciones en atribución de campañas
-
-- **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Conocer que los DSP ofrecen medición rápida y económica pero no independiente es clave para validar datos con GA4/server-side. Recomienda complementar con attribution independiente, no confiar únicamente en reportes del DSP.
-- **Enlace:** https://ppc.land/in-dsp-measurement/
-
-### Single publisher attribution: cada plataforma reclama el mismo crédito
-
-- **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Afecta la interpretación de ROI en Meta, Google Ads y otras plataformas que usan atribución de un solo publicador. Valida la necesidad de server-side tracking o modelo de atribución multi-touch para reconciliar números.
-- **Enlace:** https://ppc.land/single-publisher-attribution/
-
-### Netflix amplía data segments en Trade Desk y lanza Pixel + eventos CAPI
+### In-DSP measurement: limitaciones en atribución y lift testing
 
 - **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Netflix expande opciones de segmentación y medición para compradores programáticos. Revisar si clientes en CTV/Netflix necesitan actualizar estrategias de targeting o implementar el nuevo Pixel/CAPI, pero no es cambio obligatorio de plataforma.
+- **Implicacion:** Los reportes nativos de DSP (Meta Ads Manager, Google Campaign Manager) son rápidos pero sesgados. Necesitas verificación independiente con GA4/server-side para decisiones críticas de optimización.
+- **Enlace:** https://ppc.land/in-dsp-measurement/
+
+### Single Publisher Attribution: cada plataforma reclama crédito con sus propios datos
+
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Debes entender que Meta, Google y otros pueden reclamar la misma conversión independientemente. Revisa tus modelos de atribución multi-touch en GA4 y reconcilia discrepancias entre plataformas; es normal que cada una reporte números diferentes.
+- **Enlace:** https://ppc.land/single-publisher-attribution/
+
+### Netflix expande segmentos de datos y CAPI con nuevos eventos de conversion
+
+- **Fuente:** PPC Land · **Area:** Meta Pixel
+- **Implicacion:** Netflix permite mas precision en audiencias y medicion de conversiones via Trade Desk y su Pixel. Revisar si clientes que invierten en CTV necesitan actualizar setup de pixels y mapeo de eventos en Netflix CAPI.
 - **Enlace:** https://ppc.land/trade-desk-buyers-gain-4-million-data-segments-for-netflix-ads-in-november/
 
 ## Relevancia baja (5)
 
-### Definición de conversion rate: concepto básico sin cambios
+### Definición de conversion rate y sus variantes de cálculo
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un artículo de referencia sobre el concepto fundamental de tasa de conversión. No implica acción inmediata ni cambios en implementación.
+- **Implicacion:** Es un artículo educativo sobre conceptos básicos de métricas de conversión. No requiere acción inmediata a menos que necesites alineación terminológica con stakeholders.
 - **Enlace:** https://ppc.land/conversion-rate/
 
-### Permisos de extensiones de navegador en Chrome, Firefox y Safari
+### Permisos de extensiones de navegador: guía técnica
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Contenido educativo sobre cómo las extensiones declaran permisos técnicos. Relevante solo si desarrollas extensiones propias para tracking; no afecta implementaciones estándar de GTM, GA4 o pixels.
+- **Implicacion:** Contenido educativo sobre cómo funcionan los permisos de extensiones (Chrome, Firefox, Safari). Útil para entender limitaciones de herramientas de tracking/debugging, pero no es un cambio de política o plataforma que obligue a actuar.
 - **Enlace:** https://ppc.land/browser-extension-permissions/
 
-### Case study Meta/Nest sobre AI ads: sin datos verificables de uplift
-
-- **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Es un case study de marketing sin metodología clara ni baseline temporal. No hay cambios de plataforma que actuar. Conviene ignorarlo para decisiones de tracking.
-- **Enlace:** https://ppc.land/meta-case-study-credits-nests-ai-ads-with-20-higher-conversion-rates/
-
-### TransUnion/Fiserv: perfiles pseudonimizados para pagos (sin impacto GTM)
+### Nest AI ads case study: 20% conversión más alto (datos insuficientes)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Iniciativa de datos de pago offline entre TransUnion y Fiserv; no afecta tracking web/app ni implementación de consent mode. Monitorear solo si el cliente vende offline y negocia integraciones de CRM.
+- **Implicacion:** Es un case study de marketing de Meta sin datos de período, baseline o metodología clara. No hay cambio real en tracking o implementación que afecte tu trabajo.
+- **Enlace:** https://ppc.land/meta-case-study-credits-nests-ai-ads-with-20-higher-conversion-rates/
+
+### TransUnion y Fiserv unen pagos tap-to-pay a perfil único
+
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Iniciativa de matching de identidad offline para retailers específicos (Red Lobster). No afecta infraestructura de tracking web ni políticas de plataformas GTM/GA4/Meta; monitorear si expande a clientes pero sin cambios inmediatos requeridos.
 - **Enlace:** https://ppc.land/transunion-and-fiserv-tie-tap-to-pay-and-new-cards-to-one-shopper-profile/
 
 ### Tracking pixel: definición básica y funcionamiento
 
 - **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Es un artículo educativo sobre qué es un píxel de seguimiento. No anuncia cambios de plataforma ni nuevas políticas que obliguen a actuar.
+- **Implicacion:** Es un artículo educativo sobre qué es un pixel de seguimiento. Útil como referencia para clientes, pero no anuncia cambios de plataforma ni políticas que afecten implementaciones actuales.
 - **Enlace:** https://ppc.land/tracking-pixel/
