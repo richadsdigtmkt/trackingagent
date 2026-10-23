@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Disputa editorial sobre crawling de Meta: plazo Oct 26
+### Alianza de medios presiona a Meta sobre términos de crawling
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un conflicto regulatorio US entre editores y Meta sobre términos de acceso a contenido. No afecta implementación de tracking, consent mode o GA4 en DACH/España/UK.
+- **Implicacion:** Disputa comercial entre editores y Meta sobre acceso a contenidos. Sin impacto directo en tracking, GA4, Pixel o consent mode para consultores GTM.
 - **Enlace:** https://ppc.land/news-media-alliance-gives-meta-until-oct-26-to-answer-on-crawling-terms/
