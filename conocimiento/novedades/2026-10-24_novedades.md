@@ -27,5 +27,5 @@ _Nada en esta categoria._
 ### YouTube aumenta límite de feeds personalizados (3 o 8 Premium)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio en UX de YouTube sin impacto directo en tracking o consent. Monitorear si afecta patrones de visualización en audiences de YouTube en GA4/Meta, pero no requiere acción inmediata.
+- **Implicacion:** Cambio en la plataforma YouTube sin impacto directo en tracking, GTM, GA4 o consent. Afecta solo a creadores de contenido y su distribución, no a infraestructura de medición.
 - **Enlace:** https://ppc.land/youtube-lifts-custom-feed-limit-to-3-or-8-for-premium-members/
