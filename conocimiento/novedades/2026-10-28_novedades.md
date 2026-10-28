@@ -16,11 +16,11 @@ tags: [Meta Pixel]
 
 ## Relevancia alta (1)
 
-### Meta activa conteo de conversiones server-side por defecto (12 nov)
+### Meta activa conteo de conversiones en dispositivo (Nov 12); cumplimiento AI disclosure en riesgo
 
 - **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Meta cambia el modelo de reporte de conversiones hacia device-side counting automático. Revisa configuración de tu Pixel en Meta Business Suite y valida que las conversiones se repliquen correctamente en GA4 y GTM; ajusta server-side si usas.
-- **Deja obsoleto:** Implementaciones que dependían exclusivamente de client-side Pixel counting para conversiones críticas (ecommerce, leads) pueden ver discrepancias. Revisa eventos de conversión en Meta Events Manager.
+- **Implicacion:** A partir del 12 de noviembre, Meta cambia el modelo de conteo de conversiones a device-side por defecto, mejorando privacidad pero requiere validar que tus píxeles sigan enviando datos correctamente. Además, detecta incumplimiento masivo en disclosure de anuncios con IA (solo 2 de 3,379 casos declaran uso de IA): revisa tus campañas Meta para cumplir normativa DACH/UK/España.
+- **Deja obsoleto:** El modelo anterior de server-side conversion counting como opción principal de Meta Pixel queda depreciado; las implementaciones que no validen device-side counting pueden perder atribución de conversiones.
 - **Enlace:** https://ppc.land/meta-pixel-counts-more-sales-from-nov-12-as-ai-ads-go-undisclosed/
 
 ## Relevancia media (0)
