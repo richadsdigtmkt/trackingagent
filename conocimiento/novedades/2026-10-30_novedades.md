@@ -16,11 +16,11 @@ tags: [consent/privacy, otros]
 
 ## Relevancia alta (1)
 
-### CNIL multa a Fnac €7M por tracking sin consentimiento en app
+### CNIL multa Fnac €7M por tracking sin consentimiento en app
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Enforcement real de RGPD en Francia: apps que envían datos tras rechazo de consentimiento reciben multas severas (€10k/día). Revisar implementaciones de consent mode y tracking en apps móviles para DACH/ES/UK: validar que rechazos stop data transmission.
-- **Deja obsoleto:** Implementaciones de consent mode que distinguen entre web y app sin enforcement igual en mobile quedan expuestas legalmente; el 'usuario rechaza pero seguimos rastreando' ya no es viable.
+- **Implicacion:** Enforcement real de RGPD/ePrivacy: tracking que continúa tras rechazo es ilegal y costoso (€7M + €10k/día). Audita implementaciones de consent mode y validaciones server-side en clientes con apps/mobile para asegurar que el rechazo detiene transmisión de datos a terceros.
+- **Deja obsoleto:** Prácticas de 'deferred consent' o 'silently tracking pending user decision' quedan prohibidas; solo tracking post-consentimiento positivo es legal.
 - **Enlace:** https://ppc.land/cnil-fines-fnac-eur7m-after-its-app-tracked-users-who-refused-consent/
 
 ## Relevancia media (0)
@@ -29,14 +29,14 @@ _Nada en esta categoria._
 
 ## Relevancia baja (2)
 
-### Instacart crece en ingresos publicitarios; fusión con DoorDash pendiente
+### Instacart aumenta ingresos publicitarios 23% antes fusión DoorDash
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia de negocio sin impacto inmediato en implementación de tracking. Monitor solo si gestionas cuentas de Instacart Ads donde la integración DoorDash cambie políticas de datos.
+- **Implicacion:** Noticia financiera sobre crecimiento de plataforma de ads de Instacart. No afecta implementación de tracking ni políticas de consent/data en DACH, España o UK.
 - **Enlace:** https://ppc.land/instacart-ad-revenue-gains-23-to-331m-in-quarter-before-doordash-deal/
 
-### Semrush elimina Copilot de tracking de visibilidad IA (9 nov)
+### Semrush elimina Copilot de tracking de visibilidad IA
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio interno de producto Semrush sin impacto en implementacion de tracking o consent. Informativo para clientes Enterprise que usen Copilot, pero no afecta GTM, GA4, Meta Pixel ni server-side.
+- **Implicacion:** Cambio interno de Semrush sobre cómo factura features de IA a clientes Enterprise. No afecta implementación de tracking (GTM, GA4, pixels) ni compliance de datos.
 - **Enlace:** https://ppc.land/semrush-drops-copilot-from-ai-visibility-tracking-on-november-9/
