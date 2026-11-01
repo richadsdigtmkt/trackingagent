@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Estudio: 36% accede secretamente a cuentas compartidas (implicación audience tracking)
+### Estudio sobre compartición de cuentas de streaming (84% de usuarios)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es investigación académica sobre comportamiento de usuarios, no un cambio de plataforma o política de tracking. Valor principalmente educativo para entender fragmentación de identidad en households compartidos, pero sin obligaciones operativas inmediatas.
+- **Implicacion:** Dato sociológico sobre comportamiento de consumidores, no cambio en plataformas de tracking. No requiere acción operativa en GTM, GA4 o consent mode.
 - **Enlace:** https://ppc.land/36-have-secretly-logged-into-a-partners-account-all-about-cookies-finds/
