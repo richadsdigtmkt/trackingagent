@@ -18,20 +18,18 @@ tags: [consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (0)
+## Relevancia media (1)
 
-_Nada en esta categoria._
-
-## Relevancia baja (2)
-
-### Demanda contra Google por Gemini en Gmail sin consentimiento (litigio civil)
-
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Es un litigio privado en EE.UU. sin impacto directo en implementación de tracking ni consent mode en DACH/España/UK. Monitorea si genera precedente regulatorio, pero no requiere acción inmediata.
-- **Enlace:** https://ppc.land/google-faces-refiled-gemini-gmail-suit-after-judge-found-no-concrete-harm/
-
-### Microsoft permite 40 directrices para anuncios generados con IA
+### Microsoft habilita hasta 40 directrices para anuncios generados por IA
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Feature de Microsoft Ads para control de IA en creatividad. No afecta tracking, consent o implementación de GTM/GA4/Meta.
+- **Implicacion:** Cambio en Microsoft Ads: más control sobre creatividades generadas por IA. Afecta si usas Microsoft para performance max o automatización de ads, pero no impacta directamente implementación de tracking GTM/GA4/pixels.
 - **Enlace:** https://ppc.land/microsoft-lets-advertisers-set-up-to-40-guidelines-for-ai-written-ads/
+
+## Relevancia baja (1)
+
+### Demanda contra Google por Gemini en Gmail sin consentimiento
+
+- **Fuente:** PPC Land · **Area:** consent/privacy
+- **Implicacion:** Litigio civil en USA sobre consentimiento en features de IA; afecta solo si gestionas clientes con usuarios USA preocupados por privacidad. No es cambio de política de plataforma ni impacta implementación de tracking.
+- **Enlace:** https://ppc.land/google-faces-refiled-gemini-gmail-suit-after-judge-found-no-concrete-harm/
