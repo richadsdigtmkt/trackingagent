@@ -20,22 +20,22 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### IAB clean room spec (ECAPI 1.1) permite emails sin hash con controles
+### IAB clean room specs (ECAPI 1.1): emails sin hash permitidos bajo controles
 
 - **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Nuevo estándar de IAB Tech Lab define 7 claves obligatorias y formato Parquet para cargar eventos en clean rooms. Afecta si usas clean rooms para matching: revisar si tus implementaciones cumplen spec (especialmente hashing rules en consulta pública).
+- **Implicacion:** Nuevas reglas técnicas de IAB Tech Lab definen cómo cargar eventos de conversión en clean rooms con 7 keys requeridas y formato Parquet. Revisar si afecta implementación de clean rooms en clientes DACH/UK; comentar en ECAPI 1.1 si tienes posición sobre reglas de hashing.
 - **Enlace:** https://ppc.land/iab-tech-lab-clean-room-rules-allow-unhashed-emails-under-technical-controls/
 
 ## Relevancia baja (2)
 
-### Disputa legal Character.ai/Disney sin impacto directo en tracking
+### Disputa judicial Character.ai-Disney: sin impacto directo en tracking
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia de litigio corporativo sobre adquisición de plataforma de IA. No afecta infraestructura de tracking, consent mode, GA4, GTM ni pixels en los mercados DACH/ES/UK.
+- **Implicacion:** Es una batalla legal corporativa sobre una adquisición (Character.ai por Disney) sin cambios en políticas de tracking, consent o privacidad que afecten implementaciones GTM/GA4/Pixel. No requiere acción.
 - **Enlace:** https://ppc.land/judge-to-overrule-40-states-objections-to-character-ais-disney-sale-rules/
 
-### VIOOH suma 254 pantallas JCDecaux en Bálticos para publicidad automatizada
+### VIOOH amplía inventario OOH en Bálticos con 254 pantallas JCDecaux
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Noticia de expansión de inventario de publicidad exterior programática en mercados pequeños (Bálticos). Sin impacto en tracking digital (GTM, GA4, pixels) ni en compliance de privacidad.
+- **Implicacion:** Noticia de expansión de un SSP de publicidad exterior (out-of-home). No afecta a tracking de conversión web, consent o medición digital en mercados DACH/España/UK.
 - **Enlace:** https://ppc.land/viooh-gains-254-jcdecaux-screens-in-the-baltics-for-automated-ad-buying/
