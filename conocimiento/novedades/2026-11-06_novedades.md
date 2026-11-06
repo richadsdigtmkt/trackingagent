@@ -16,11 +16,11 @@ tags: [consent/privacy]
 
 ## Relevancia alta (1)
 
-### UK Data (Use and Access) Act 2025: cambios GDPR, PECR y consent
+### UK Data Act 2025: cambios GDPR, PECR y nuevas exenciones cookie
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Ley UK que modifica GDPR y PECR, añade excepciones a consentimiento de cookies e impacta gobernanza del ICO. Revisar ya qué cookies/tracking pueden operar sin consent explícito en UK y ajustar estrategia consent mode y políticas de terceros.
-- **Deja obsoleto:** Prácticas de consentimiento cookie basadas en GDPR/PECR UK pre-2025 pueden quedar parcialmente obsoletas; evaluar qué excepciones nuevas aplican a tu stack (GA4, Meta Pixel, etc.)
+- **Implicacion:** La ley reescribe GDPR y PECR en UK, introduce exenciones de consentimiento cookie y reforma ICO. Revisar consentimiento e implementación de Consent Mode en propiedades UK inmediatamente para cumplir nuevas reglas de cookie exemptions.
+- **Deja obsoleto:** Políticas de consentimiento cookie previas a 2025 en UK pueden quedar parcialmente obsoletas; valida qué cookies quedan exentas bajo la nueva ley.
 - **Enlace:** https://ppc.land/data-use-and-access-act/
 
 ## Relevancia media (0)
