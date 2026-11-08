@@ -20,16 +20,16 @@ _Nada en esta categoria._
 
 ## Relevancia media (2)
 
-### Data Manager: configuraciones duplicadas de Ads pueden duplicar conversiones
+### Google Analytics Data Manager: riesgo de duplicación en conversiones con configuraciones Ads duplicadas
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** En beta desde 6 nov: si tienes múltiples propiedades estándar enviando a Google Ads, riesgo de doble conteo de conversiones. Audita tu Data Manager y consolida flujos de datos para evitar duplicaciones.
+- **Implicacion:** En beta desde nov 6: flujos de datos unidireccionales (Analytics→Ads/GMP) pueden duplicar conversiones si existen setups de Ads duplicados. Revisar configuraciones de Ads vinculadas en GA4 para evitar doble conteo.
 - **Enlace:** https://ppc.land/google-analytics-data-manager-duplicate-ads-setups-can-log-conversions-twice/
 
-### Data Manager API 1.9: conversiones telefónicas hasheadas, sin atribución aún
+### Data Manager API 1.9: call conversions con números hasheados
 
 - **Fuente:** PPC Land · **Area:** server-side
-- **Implicacion:** Google expande Data Manager API para aceptar conversiones telefónicas (solo números hasheados). Evalúa si tus clientes usan call tracking; por ahora no permite atribución con Lead IDs, así que no reemplaza soluciones actuales de server-side.
+- **Implicacion:** Google Data Manager API ahora acepta call conversions, pero solo con datos hasheados y sin capacidad de atribución aún. Relevante para implementaciones de server-side con Google Ads; verifica si afecta tu estrategia de tracking de llamadas en DACH/ES/UK.
 - **Enlace:** https://ppc.land/googles-data-manager-api-accepts-call-conversions-but-only-hashed-numbers/
 
 ## Relevancia baja (0)
