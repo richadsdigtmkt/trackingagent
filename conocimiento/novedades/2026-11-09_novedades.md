@@ -20,10 +20,10 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Google PMax requiere 15 conversiones/30 días para gasto consistente
+### Google alinea gasto consistente en PMax a 15 conversiones cada 30 días
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Afecta a clientes con bajo volumen en PMax: necesitan validar si alcanzan el threshold para evitar throttling de presupuesto. Revisar cuentas activas y documentar el requisito en auditorías de configuración.
+- **Implicacion:** Google está equiparando requisitos de volumen mínimo en Performance Max con los de Search Target ROAS (15 conversiones/30 días). Revisa si clientes con bajo volumen en PMax necesitan ajustar estrategia de bidding o presupuesto para cumplir el umbral de aprendizaje.
 - **Enlace:** https://ppc.land/google-ties-consistent-pmax-spend-to-15-conversions-every-30-days/
 
 ## Relevancia baja (0)
