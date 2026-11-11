@@ -20,10 +20,10 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### MRC publica estándares de medición para IA en Q1 2027
+### MRC publica estándares de medición en IA (Q1 2027)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Seguir evolución de auditorías MRC en servicios de medición (GA4, Meta, etc.) para garantizar compliance cuando entren en vigor. No requiere acción inmediata pero afecta validación de datos en 2027.
+- **Implicacion:** Seguimiento de normas futuras para auditoría de herramientas IA en tracking/medición. Revisar si tus soluciones (GTM, GA4, server-side) usarán IA en 2027 y necesitarán certificación MRC.
 - **Enlace:** https://ppc.land/media-rating-council-sets-q1-2027-draft-for-first-ai-measurement-standards/
 
 ## Relevancia baja (0)
