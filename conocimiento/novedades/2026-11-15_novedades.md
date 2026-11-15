@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 0
 novedades: 7
 relevancia_alta: 0
-tags: [consent/privacy, otros]
+tags: [consent/privacy, otros, server-side]
 ---
 
 # Novedades del sector — 2026-11-15
@@ -18,48 +18,48 @@ tags: [consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (1)
+## Relevancia media (2)
 
-### Amazon Ad Tag: cookie first-party de 30 días en sitios de anunciantes
+### Amazon Ad Tag: nueva cookie first-party de 30 días en sitios publicitarios
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Amazon Ads implementa aatSession ID (cookie first-party) en NA. Requiere revisar si afecta tu stack de consent mode y cookie banner; verificar compatibilidad con CMP actual y reglamentación DACH/España/UK.
+- **Implicacion:** Amazon Ads ahora deposita aatSession ID (first-party cookie) en sitios NA para tracking de visitas. Requiere revisar gestión de consentimiento y declaración de cookies; aún falta claridad sobre comportamiento sin consentimiento explícito.
 - **Enlace:** https://ppc.land/amazon-ad-tag-adds-a-30-day-first-party-cookie-to-advertiser-websites/
 
-## Relevancia baja (6)
+### Amazon Ads: nueva dimensión 'Conversion source' para eventos fuera de plataforma
 
-### India abre registro de gestores de consentimiento; aplicable 2027
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Útil si trackeabas conversiones offline/cross-domain en Amazon Ads. Permite identificar qué sistema (GTM, píxeles, integraciones) envía conversiones. Revisa si usas Amazon Ads con eventos server-side o integraciones externas.
+- **Enlace:** https://ppc.land/conversion-source/
+
+## Relevancia baja (5)
+
+### India abre registro de gestores de consentimiento (fuera mercados DACH/ES/UK)
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Afecta solo si tienes clientes en India con datos de residentes indios. El cumplimiento de DPDP es obligatorio desde mayo 2027; monitorea si necesitas un consent manager certificado o delegar en uno local.
+- **Implicacion:** No afecta a tus mercados objetivo (DACH, España, UK). Monitorear solo si tienes clientes con operaciones en India o tráfico significativo desde allí.
 - **Enlace:** https://ppc.land/india-opens-consent-manager-registration-with-a-2-crore-net-worth-floor/
 
-### YouTube Studio renombra Analytics a Insights; cambios UI para creadores
+### YouTube Studio renombra Analytics a Insights con nuevas funciones
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio cosmético en YouTube Studio: Analytics pasa a llamarse Insights, Trends a Research. No afecta tracking de conversión, GTM, GA4 ni pixel en anunciantes; relevante solo si tu cliente es creator.
+- **Implicacion:** Cambio cosmetico en herramientas de YouTube Studio para creadores. No afecta tracking GTM, GA4, Meta Pixel ni consent mode de publicistas/e-commerce.
 - **Enlace:** https://ppc.land/youtube-studios-numbers-learn-to-talk-as-analytics-becomes-insights/
 
-### Amazon Ads: nueva dimensión de reporting de conversiones
+### Amazon Ads añade dimensión de fuente de conversión
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Cambio en la taxonomía de reportes de Amazon Ads. Afecta solo si gestionas campañas en Amazon (DSP, Sponsored Ads); no impacta GTM, GA4 o Meta Pixel.
+- **Implicacion:** Novedad en reportes de Amazon Ads para segmentar conversiones por canal (web, app, tienda física). No afecta a GTM, GA4 ni Meta Pixel si no usas Amazon Ads.
 - **Enlace:** https://ppc.land/conversion-source-environment/
 
-### Amazon Ads: nueva dimensión 'Scaled' en reportes unificados
+### Amazon Ads: nueva dimensión 'Scaled' en reporting de conversiones
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Información sobre metadatos de Amazon Ads reporting que permite identificar conversiones proyectadas desde muestras. Relevante solo si gestionas campañas Amazon Ads y necesitas validar calidad de datos en dashboards.
+- **Implicacion:** Información sobre cómo Amazon Ads proyecta conversiones desde muestras. Relevante solo si trabajas con Amazon DSP/Ads; no afecta GTM, GA4 ni Meta Pixel.
 - **Enlace:** https://ppc.land/scaled/
 
-### Amazon Ads: nueva dimensión de reporting (conversion source owner)
+### Amazon Ads: dimensión 'Conversion Source Owner' en reportes
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Dimensión de reporte en Amazon Ads que clarifica si Amazon o un partner reportó la conversión. Revisar si aplica a clientes con publicidad en Amazon, pero no afecta GTM, GA4, Meta Pixel ni consent mode.
+- **Implicacion:** Nueva dimensión de reporting en Amazon Ads para identificar si Amazon o partners reportan conversiones. Relevante solo si gestionas campañas en Amazon Ads; no impacta GTM, GA4, Meta o server-side.
 - **Enlace:** https://ppc.land/conversion-source-owner/
-
-### Amazon Ads añade dimensión 'Conversion Source' en reportes
-
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Nueva dimensión de reporting en Amazon Ads para identificar el sistema/integración origen de conversiones off-Amazon. Relevante solo si trabajas campañas Amazon con conversiones externas; no afecta GTM, GA4 o Meta Pixel.
-- **Enlace:** https://ppc.land/conversion-source/
