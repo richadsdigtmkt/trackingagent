@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Maldivas: nueva ley de protección de datos con multas limitadas
+### Maldivas aprueba ley de protección de datos con multas limitadas
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Cambio regulatorio en Maldivas con requisitos de consentimiento parental bajo 15 años y reporte de brechas en 72h. Afecta solo si tienes tráfico significativo de Maldivas; requiere revisar alcance geográfico de tu solución.
+- **Implicacion:** Cambio regulatorio en Maldivas (mercado muy pequeño, fuera de DACH/España/UK). Afecta solo si tienes usuarios locales; requiere revisar si aplica extraterritorialmente a empresas europeas.
 - **Enlace:** https://ppc.land/maldives-bill-sets-mvr-10-million-cap-on-data-protection-fines/
