@@ -18,25 +18,25 @@ tags: [GTM, consent/privacy, otros]
 
 _Nada en esta categoria._
 
-## Relevancia media (2)
-
-### Amazon limita a un vendor de medición por estudio sin cambio posterior
-
-- **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Si usas Amazon DSP para estudios de atribución en DACH/UK/España, debes elegir vendor (Nielsen, Foursquare, etc.) desde el inicio; cambios posteriores no son posibles. Verifica si tus clientes con Amazon ya han seleccionado vendor y documenta la decisión.
-- **Enlace:** https://ppc.land/amazon-allows-one-measurement-vendor-per-ad-study-with-no-switching-later/
+## Relevancia media (1)
 
 ### Google integra Google Tags standalone en contenedores GTM
 
 - **Fuente:** PPC Land · **Area:** GTM
-- **Implicacion:** GA4 redirige la configuración de tags hacia contenedores GTM nativos. Revisa si tus implementaciones standalone necesitan migración a GTM para mantener consistencia y acceso a nuevas features.
-- **Deja obsoleto:** Las Google Tags standalone como método primario de implementación GA4 tienden a quedarse atrás respecto a GTM containers; no es deprecación oficial pero Google incentiva migración.
+- **Implicacion:** GA4 redirige la configuración de tags hacia contenedores GTM nativos. Revisa si tus implementaciones standalone necesitan migración o si ya están cubiertas por GTM existente en el sitio.
+- **Deja obsoleto:** Las Google Tags standalone como método de implementación directa pierden peso como opción recomendada frente a GTM containers.
 - **Enlace:** https://ppc.land/google-upgrades-standalone-google-tags-into-tag-manager-containers/
 
-## Relevancia baja (1)
+## Relevancia baja (2)
 
-### Character.ai vende datos de chat sin consentimiento adicional
+### Venta de Character.ai: caso de transferencia de datos sin consentimiento
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Caso legal sobre transferencia de datos de usuario sin nuevo consentimiento. Monitorear si genera jurisprudencia sobre consent mode/GDPR, pero no afecta implementación técnica actual.
+- **Implicacion:** Caso legal específico de una startup que no afecta prácticas de tracking estándar en DACH/UK/España. Monitorear solo si trabajas con clientes en IA conversacional o si hay precedente regulatorio.
 - **Enlace:** https://ppc.land/character-ais-10m-sale-hinges-on-moving-chats-without-further-consent/
+
+### Amazon limita a un vendor de medición por estudio sin cambio posterior
+
+- **Fuente:** PPC Land · **Area:** otros
+- **Implicacion:** Afecta solo a campañas de Amazon DSP con estudios de incrementalidad/brand lift. No impacta GTM, GA4, Meta Pixel ni consent mode en DACH/España/UK.
+- **Enlace:** https://ppc.land/amazon-allows-one-measurement-vendor-per-ad-study-with-no-switching-later/
