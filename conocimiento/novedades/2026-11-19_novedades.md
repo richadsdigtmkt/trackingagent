@@ -20,23 +20,22 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Microsoft optimiza modelo de pujas: eCPC a CPA genera +18% conversiones
+### Microsoft mejora modelo de puja: eCPC a CPA target genera +18% conversiones
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Microsoft recomienda abandonar eCPC a favor de CPA target en nuevas cuentas (≥5 conversiones). Revisa estrategia de pujas en Ads Microsoft si usas eCPC; considera migración a CPA si datos lo permiten.
-- **Deja obsoleto:** eCPC como opción por defecto en Microsoft Ads para cuentas con suficiente historial de conversiones.
+- **Implicacion:** Cambio en recomendaciones de puja en Microsoft Ads que afecta a cuentas nuevas con pocos conversiones (< 5). Revisar si clientes DACH/UK/ES deben migrar de eCPC a CPA target según volumen de conversiones histórico.
 - **Enlace:** https://ppc.land/microsoft-rebuilds-its-bid-model-citing-10-more-value-per-click/
 
 ## Relevancia baja (2)
 
-### Colombia exige consentimiento para menores: Google pierde apelación
+### Colombia obliga consentimiento menores; Google pierde apelación
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Decisión judicial colombiana local que requiere consentimiento explícito para menores de edad. Afecta solo si tienes tráfico significativo desde Colombia; revisar si necesitas implementar edad-gating o consent adicional por geolocalización.
+- **Implicacion:** Sentencia local colombiana requiere consentimiento explícito para datos de menores. No afecta mercados DACH/España/UK donde RGPD/LSSI ya lo exigen; monitorear si otros países latinoamericanos replican.
 - **Enlace:** https://ppc.land/google-loses-bid-to-overturn-colombias-under-18-data-consent-orders/
 
-### Google caso de estudio: vídeo vertical en DV360 reduce CPM
+### Google: vídeo vertical en DV360 reduce CPM en Ford 19%
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un case study de Google sobre optimización de formatos en DV360 (programmatic display), no un cambio de plataforma. Útil para briefings de clientes con presupuesto en display, pero no afecta implementación técnica de tracking.
+- **Implicacion:** Es un case study de rendimiento de formato en programática (DV360), no un cambio de plataforma o política que afecte implementación de tracking. Valor informativo solo si gestionas campañas display con verticales.
 - **Enlace:** https://ppc.land/google-says-dv360-vertical-video-cut-fords-cost-per-unique-user-19/
