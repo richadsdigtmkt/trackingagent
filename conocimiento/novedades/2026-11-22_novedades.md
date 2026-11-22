@@ -3,9 +3,9 @@ tema: conversion tracking (GTM, GA4, Meta Pixel, server-side, consent/privacy)
 fecha: 2026-11-22
 fuentes_escaneadas: 5
 fuentes_caidas: 0
-novedades: 3
+novedades: 2
 relevancia_alta: 0
-tags: [GA4, Meta Pixel]
+tags: [GA4]
 ---
 
 # Novedades del sector — 2026-11-22
@@ -20,22 +20,18 @@ _Nada en esta categoria._
 
 ## Relevancia media (2)
 
-### Google: likes/comentarios cuentan como TrueView en YouTube Shorts
+### Google Shorts: likes y comentarios cuentan como TrueView views
 
-- **Fuente:** PPC Land · **Area:** Meta Pixel
-- **Implicacion:** Afecta métricas de conversión y CPA en campañas Shorts. Revisar si Google Ads/GA4 ya aplica esto en feeds de conversión; validar que los modelos de atribución no inflen falsamente ROI en video corto.
+- **Fuente:** PPC Land · **Area:** GA4
+- **Implicacion:** Los likes, comentarios y shares en Shorts ahora generan conversiones y se facturan como TrueView. Revisa campañas Shorts en GA4 y Meta para validar si el volumen de conversiones reportado ha subido sin cambios reales en el funnel.
 - **Enlace:** https://ppc.land/google-lets-a-like-stand-in-for-5-seconds-of-viewing-in-shorts-conversions/
 
-### GA4 añade alertas por datos de cliente malformados o faltantes
+### GA4 alertas nuevas por datos de cliente malformados (e0-e3)
 
 - **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** GA4 ahora alerta sobre errores en formato de datos de cliente (códigos e0-e3) que afectan a conversiones. Revisar implementación de customer data en GA4 y verificar si tus clientes reciben estas alertas; ajustar validación de PII según el umbral no publicado de Google.
+- **Implicacion:** GA4 ahora alerta sobre errores en customer data (formatos inválidos, navegadores viejos, fallos SHA256, páginas HTTP). Revisa tu implementación de customer data en GA4 y valida que los hashes y formatos cumplan spec; sin umbral publicado para 'low-rate', monitorea manualmente.
 - **Enlace:** https://ppc.land/google-analytics-adds-two-alerts-for-missing-or-malformed-customer-data/
 
-## Relevancia baja (1)
+## Relevancia baja (0)
 
-### Google entrena agentes IA para integrar Analytics en apps iOS/Android
-
-- **Fuente:** PPC Land · **Area:** GA4
-- **Implicacion:** Es una iniciativa de Google para facilitar la implementación de Firebase Analytics mediante IA, pero no cubre tracking de conversiones. Monitorea si esta herramienta se expande a conversion tracking en futuras versiones.
-- **Enlace:** https://ppc.land/google-teaches-ai-coding-agents-to-wire-analytics-into-ios-and-android-apps/
+_Nada en esta categoria._
