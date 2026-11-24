@@ -20,28 +20,28 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Consentimiento cookie UE cae a 65.2%; crece consentimiento no registrado
+### Consentimiento cookie UE cae a 65.2%: más rechazos técnicos que reales
 
 - **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Los datos de TAGGRS (17.4bn eventos GA4) muestran que el 9.7% de visitantes no registran elección explícita (antes era "no"). Revisa si tus banners capturan y envían correctamente la señal de consentimiento a GA4 y Meta Pixel; un banner defectuoso pierde tracking legal sin que rechaces visitantes.
+- **Implicacion:** Los datos de TAGGRS (17.4bn eventos GA4) muestran que el 22.3% de usuarios no registran decisión de consentimiento (rechazos reales 12.6% + sin registrar 9.7%). Revisar configuración de banner y flujo de consentimiento para maximizar capturas explícitas, no asumir que la caída es intención del usuario.
 - **Enlace:** https://ppc.land/fewer-yeses-no-more-noes-eu-cookie-consent-falls-to-65-2/
 
 ## Relevancia baja (3)
 
-### Microsoft aclara timeline de upgrade de bidding; sin cambios en tracking
+### Microsoft aclara timeline de upgrade de bidding; sin cambios de implementación
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es una aclaración sobre cronología de implementación de Microsoft Ads, no un cambio funcional. No requiere acción inmediata en GTM/GA4/pixels.
+- **Implicacion:** Aclaración de fechas de rollout de Microsoft Ads sobre estrategias de puja. No requiere acción inmediata en tracking ni consent; relevante solo si gestionas cuentas Microsoft Ads con conversión bidding.
 - **Enlace:** https://ppc.land/microsoft-says-its-bidding-upgrade-started-in-summer-not-november-18/
 
-### Estudio: 80% compradores UK Black Friday en tiendas desconocidas
+### Estudio Criteo: comportamiento Black Friday UK y AI en decisiones de compra
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es un informe de comportamiento de consumidor de Criteo, sin cambios en políticas de tracking ni implementación. Útil para estrategia de cliente, no para tu stack técnico.
+- **Implicacion:** Dato de mercado sobre preferencias de consumidores UK en Black Friday y adopción de AI en gifts. No requiere cambios en implementación de tracking ni compliance.
 - **Enlace:** https://ppc.land/80-of-uk-black-friday-shoppers-buy-from-unfamiliar-stores-criteo-finds/
 
-### Lufthansa implementa red publicitaria propia de 72 touchpoints con Platform 195
+### Lufthansa implementa red publicitaria propia con 72 touchpoints
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es una iniciativa interna de un advertiser (Lufthansa) para medir su propia red de publicidad física/digital. No afecta directamente a plataformas de tracking estándar (GTM, GA4, Meta) ni a políticas de privacidad en DACH/UK/España.
+- **Implicacion:** Es un caso de estudio de infraestructura de tracking de un anunciante específico (Lufthansa), no un cambio de plataforma o política que afecte a consultores de tracking. Relevante solo si trabajas con clientes del grupo Lufthansa.
 - **Enlace:** https://ppc.land/lufthansa-group-licenses-platform-195-software-for-72-touchpoint-ad-network/
