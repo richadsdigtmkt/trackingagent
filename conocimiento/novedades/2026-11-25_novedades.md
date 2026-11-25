@@ -24,8 +24,8 @@ _Nada en esta categoria._
 
 ## Relevancia baja (1)
 
-### Guía sobre capas de datos y su importancia en tag governance
+### Guía introductoria sobre data layer y gobernanza de tags
 
 - **Fuente:** ObservePoint Blog · **Area:** QA
-- **Implicacion:** Contenido educativo sobre arquitectura de data layer, útil para formación interna pero no representa un cambio de plataforma o política que requiera acción inmediata.
+- **Implicacion:** Contenido educativo sobre arquitectura de tracking. No es una novedad de plataforma, política o cambio que obligue a actuar inmediatamente.
 - **Enlace:** https://www.observepoint.com/blog/what-is-a-data-layer/
