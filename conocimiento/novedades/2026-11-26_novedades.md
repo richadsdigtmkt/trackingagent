@@ -24,20 +24,20 @@ _Nada en esta categoria._
 
 ## Relevancia baja (3)
 
-### Amazon Ad Tag: cambio regional en Ads Data Manager, sin impacto GTM/GA4
+### Amazon Ad Tag: cambio en disponibilidad regional (NA vs EU/Asia)
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Afecta solo a cuentas Amazon Ads en Europa y Far East; no es tracking de conversion web sino de plataforma Amazon propia. Monitorea si tus clientes usan Amazon DSP, pero no requiere cambios en GTM, GA4 o pixel server-side.
+- **Implicacion:** Afecta solo a cuentas de Amazon Ads en NA/EU/Asia con gestión de tags. No impacta GTM, GA4, Meta Pixel ni consent mode en DACH/España/UK.
 - **Enlace:** https://ppc.land/north-america-no-longer-has-amazon-ad-tag-setup-to-itself/
 
-### Taboola lanza modelo 'pay-per-sale' con 21k creadores
+### Taboola lanza modelo pay-per-sale con creators; impacto marginal en tracking convencional
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Es una iniciativa de Taboola/Howl para monetización de creators con modelo CPA. No afecta a GTM, GA4, Meta Pixel ni consent mode en mercados DACH/España/UK.
+- **Implicacion:** Es un modelo comercial de Taboola/Howl para afiliación y creators, no un cambio en plataformas de tracking estándar (GTM, GA4, Meta). Seguir de cerca solo si clientes usan Taboola como canal de conversión.
 - **Enlace:** https://ppc.land/no-sale-no-pay-taboola-links-60-brands-with-21-000-creators/
 
-### Discord publica qué IDs de anuncios recopila en contenido patrocinado
+### Discord actualiza política: transparencia sobre IDs de ads en Quests
 
 - **Fuente:** PPC Land · **Area:** otros
-- **Implicacion:** Discord clarifica su recopilación de datos (impresiones, clics, conversiones) en Quests patrocinados en su política de privacidad. Revisar si tus clientes usan Discord Ads; impacto mínimo en GTM/GA4/Meta Pixel estándar.
+- **Implicacion:** Discord clarifica qué datos de tracking recopila en contenido patrocinado (Quests). Revisar si tus campañas en Discord usan Quests y ajustar expectativas sobre data collection, pero no obliga cambios inmediatos en GTM/GA4/Meta.
 - **Enlace:** https://ppc.land/discords-december-15-policy-names-ad-ids-it-collects-on-sponsored-content/
