@@ -5,7 +5,7 @@ fuentes_escaneadas: 5
 fuentes_caidas: 1
 novedades: 1
 relevancia_alta: 0
-tags: [consent/privacy]
+tags: [server-side]
 ---
 
 # Novedades del sector — 2026-11-27
@@ -20,10 +20,10 @@ _Nada en esta categoria._
 
 ## Relevancia media (1)
 
-### Solo 69% de solicitudes de ads en apps europeas llevan señales de ID completas
+### Solo 69% de solicitudes app en Europa llevan IDs de dispositivo completos
 
-- **Fuente:** PPC Land · **Area:** consent/privacy
-- **Implicacion:** Afecta a clientes con apps: la fragmentación de device IDs por consent reduce bidding y CPM. Revisar implementación de consent mode y signal loss en mobile apps para mercados DACH/UK/ES.
+- **Fuente:** PPC Land · **Area:** server-side
+- **Implicacion:** Dato relevante para estrategia de tracking en apps: la fragmentación de device IDs en Europa impacta bid prices y disponibilidad de datos. Revisar si tus implementaciones de server-side y consent mode capturan/transmiten correctamente estos signals en app ads.
 - **Enlace:** https://ppc.land/buyers-bid-more-on-app-ads-with-a-device-id-in-3-of-4-regions-blasto-finds/
 
 ## Relevancia baja (0)
